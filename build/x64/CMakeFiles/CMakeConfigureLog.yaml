@@ -1,0 +1,1513 @@
+
+---
+events:
+  -
+    kind: "message-v1"
+    backtrace:
+      - "D:/Program Files/Cmake/share/cmake-4.4/Modules/CMakeDetermineSystem.cmake:218 (message)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      The system is: Windows - 10.0.19044 - AMD64
+  -
+    kind: "find-v1"
+    backtrace:
+      - "D:/Program Files/Cmake/share/cmake-4.4/Modules/CMakeDetermineCompilerId.cmake:501 (find_file)"
+      - "D:/Program Files/Cmake/share/cmake-4.4/Modules/CMakeDetermineCompilerId.cmake:538 (CMAKE_DETERMINE_COMPILER_ID_WRITE)"
+      - "D:/Program Files/Cmake/share/cmake-4.4/Modules/CMakeDetermineCompilerId.cmake:8 (CMAKE_DETERMINE_COMPILER_ID_BUILD)"
+      - "D:/Program Files/Cmake/share/cmake-4.4/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "D:/Program Files/Cmake/share/cmake-4.4/Modules/CMakeDetermineCCompiler.cmake:122 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "file"
+    variable: "src_in"
+    description: "Path to a file."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "CMakeCCompilerId.c.in"
+    candidate_directories:
+      - "D:/Program Files/Cmake/share/cmake-4.4/Modules/"
+    found: "D:/Program Files/Cmake/share/cmake-4.4/Modules/CMakeCCompilerId.c.in"
+    search_context:
+      ENV{PATH}:
+        - "D:\\VS\\product\\VC\\Tools\\MSVC\\14.51.36231\\bin\\HostX86\\x64"
+        - "D:\\VS\\product\\VC\\Tools\\MSVC\\14.51.36231\\bin\\HostX86\\x86"
+        - "D:\\VS\\product\\Common7\\IDE\\VC\\VCPackages"
+        - "D:\\VS\\product\\Common7\\IDE\\CommonExtensions\\Microsoft\\TestWindow"
+        - "D:\\VS\\product\\Common7\\IDE\\CommonExtensions\\Microsoft\\TeamFoundation\\Team Explorer"
+        - "D:\\VS\\product\\MSBuild\\Current\\bin\\Roslyn"
+        - "C:\\Program Files (x86)\\Microsoft SDKs\\Windows\\v10.0A\\bin\\NETFX 4.8.1 Tools\\"
+        - "D:\\VS\\product\\Team Tools\\DiagnosticsHub\\Collector"
+        - "D:\\VS\\product\\Common7\\IDE\\Extensions\\Microsoft\\CodeCoverage.Console"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\bin\\10.0.28000.0\\\\x86"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\bin\\\\x86"
+        - "D:\\VS\\product\\\\MSBuild\\Current\\Bin\\amd64"
+        - "C:\\Windows\\Microsoft.NET\\Framework\\v4.0.30319"
+        - "D:\\VS\\product\\Common7\\IDE\\"
+        - "D:\\VS\\product\\Common7\\Tools\\"
+        - "D:\\Program Files\\Vvulkan\\Bin"
+        - "C:\\Program Files\\Common Files\\Oracle\\Java\\javapath"
+        - "C:\\Windows\\system32"
+        - "C:\\Windows"
+        - "C:\\Windows\\System32\\Wbem"
+        - "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\Windows\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\"
+        - "C:\\Program Files\\PuTTY\\"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Program Files\\Cloudflare\\Cloudflare WARP\\"
+        - "D:\\Program Files\\Cmake\\bin"
+        - "C:\\Users\\xenia\\AppData\\Local\\Programs\\Python\\Python313\\Scripts\\"
+        - "C:\\Users\\xenia\\AppData\\Local\\Programs\\Python\\Python313\\"
+        - "C:\\Users\\xenia\\AppData\\Local\\Programs\\Python\\Launcher\\"
+        - "C:\\Users\\xenia\\.local\\bin"
+        - "C:\\Users\\xenia\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\xenia\\AppData\\Local\\Programs\\Ollama"
+        - "C:\\tools\\llvm-mingw\\llvm-mingw-20260616-ucrt-x86_64\\llvm-mingw-20260616-ucrt-x86_64\\bin"
+        - "C:\\Users\\xenia\\AppData\\Local\\SharpSFV"
+        - "D:\\VS\\product\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\bin"
+        - "D:\\VS\\product\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\Ninja"
+        - "D:\\VS\\product\\Common7\\IDE\\VC\\Linux\\bin\\ConnectionManagerExe"
+        - "D:\\VS\\product\\VC\\vcpkg"
+      ENV{INCLUDE}:
+        - "D:\\VS\\product\\VC\\Tools\\MSVC\\14.51.36231\\include"
+        - "D:\\VS\\product\\VC\\Tools\\MSVC\\14.51.36231\\ATLMFC\\include"
+        - "D:\\VS\\product\\VC\\Auxiliary\\VS\\include"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\include\\10.0.28000.0\\ucrt"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\\\include\\10.0.28000.0\\\\um"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\\\include\\10.0.28000.0\\\\shared"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\\\include\\10.0.28000.0\\\\winrt"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\\\include\\10.0.28000.0\\\\cppwinrt"
+        - "C:\\Program Files (x86)\\Windows Kits\\NETFXSDK\\4.8.1\\include\\um"
+  -
+    kind: "message-v1"
+    backtrace:
+      - "D:/Program Files/Cmake/share/cmake-4.4/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "D:/Program Files/Cmake/share/cmake-4.4/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "D:/Program Files/Cmake/share/cmake-4.4/Modules/CMakeDetermineCCompiler.cmake:122 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+      Compiler:  
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      MSBuild version 18.10.1-1.26427.6+3cd27c13e for .NET Framework
+      Build started 10/10/2026 12:52:08 AM.
+      
+      Project "D:\\ps5emu_poc\\build\\x64\\CMakeFiles\\4.4.4\\CompilerIdC\\CompilerIdC.vcxproj" on node 1 (default targets).
+      PrepareForBuild:
+        Creating directory "Debug\\".
+        Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
+        Creating directory "Debug\\CompilerIdC.tlog\\".
+      InitializeBuildStatus:
+        Creating "Debug\\CompilerIdC.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+        Touching "Debug\\CompilerIdC.tlog\\unsuccessfulbuild".
+      ClCompile:
+        D:\\VS\\product\\VC\\Tools\\MSVC\\14.51.36231\\bin\\HostX64\\x64\\CL.exe /c /nologo /W0 /WX- /diagnostics:column /Od /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\\\" /Fd"Debug\\vc145.pdb" /external:W0 /Gd /TC /FC /errorReport:queue CMakeCCompilerId.c
+        CMakeCCompilerId.c
+      Link:
+        D:\\VS\\product\\VC\\Tools\\MSVC\\14.51.36231\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:".\\CompilerIdC.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\\CompilerIdC.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\\CompilerIdC.lib" /MACHINE:X64 Debug\\CMakeCCompilerId.obj
+        CompilerIdC.vcxproj -> D:\\ps5emu_poc\\build\\x64\\CMakeFiles\\4.4.4\\CompilerIdC\\CompilerIdC.exe
+      PostBuildEvent:
+        for %%i in (cl.exe) do @echo CMAKE_C_COMPILER=%%~$PATH:i
+        :VCEnd
+        CMAKE_C_COMPILER=D:\\VS\\product\\VC\\Tools\\MSVC\\14.51.36231\\bin\\Hostx64\\x64\\cl.exe
+      FinalizeBuildStatus:
+        Deleting file "Debug\\CompilerIdC.tlog\\unsuccessfulbuild".
+        Touching "Debug\\CompilerIdC.tlog\\CompilerIdC.lastbuildstate".
+      Done Building Project "D:\\ps5emu_poc\\build\\x64\\CMakeFiles\\4.4.4\\CompilerIdC\\CompilerIdC.vcxproj" (default targets).
+      
+      Build succeeded.
+          0 Warning(s)
+          0 Error(s)
+      
+      Time Elapsed 00:00:00.79
+      
+      
+      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.exe"
+      
+      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.vcxproj"
+      
+      The C compiler identification is MSVC, found in:
+        D:/ps5emu_poc/build/x64/CMakeFiles/4.4.4/CompilerIdC/CompilerIdC.exe
+      
+  -
+    kind: "find-v1"
+    backtrace:
+      - "D:/Program Files/Cmake/share/cmake-4.4/Modules/CMakeFindBinUtils.cmake:37 (find_program)"
+      - "D:/Program Files/Cmake/share/cmake-4.4/Modules/CMakeFindBinUtils.cmake:64 (__resolve_tool_path)"
+      - "D:/Program Files/Cmake/share/cmake-4.4/Modules/CMakeFindBinUtils.cmake:102 (__resolve_linker_path)"
+      - "D:/Program Files/Cmake/share/cmake-4.4/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "_CMAKE_TOOL_WITH_PATH"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "link"
+    candidate_directories:
+      - "D:/VS/product/VC/Tools/MSVC/14.51.36231/bin/Hostx64/x64/"
+      - "D:/VS/product/VC/Tools/MSVC/14.51.36231/bin/Hostx86/x64/"
+      - "D:/VS/product/VC/Tools/MSVC/14.51.36231/bin/Hostx86/x86/"
+      - "D:/VS/product/Common7/IDE/VC/vcpackages/"
+      - "D:/VS/product/Common7/IDE/CommonExtensions/Microsoft/TestWindow/"
+      - "D:/VS/product/Common7/IDE/CommonExtensions/Microsoft/TeamFoundation/Team Explorer/"
+      - "D:/VS/product/MSBuild/Current/Bin/Roslyn/"
+      - "C:/Program Files (x86)/Microsoft SDKs/Windows/v10.0A/bin/NETFX 4.8.1 Tools/"
+      - "D:/VS/product/Team Tools/DiagnosticsHub/Collector/"
+      - "D:/VS/product/Common7/IDE/Extensions/Microsoft/CodeCoverage.Console/"
+      - "C:/Program Files (x86)/Windows Kits/10/bin/10.0.28000.0/x86/"
+      - "C:/Program Files (x86)/Windows Kits/10/bin/x86/"
+      - "D:/VS/product/MSBuild/Current/Bin/amd64/"
+      - "C:/Windows/Microsoft.NET/Framework/v4.0.30319/"
+      - "D:/VS/product/Common7/IDE/"
+      - "D:/VS/product/Common7/Tools/"
+      - "D:/Program Files/Vvulkan/Bin/"
+      - "C:/Program Files/Common Files/Oracle/Java/javapath/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "C:/Program Files/dotnet/"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/"
+      - "C:/Program Files/PuTTY/"
+      - "C:/Program Files/Git/cmd/"
+      - "C:/Program Files/Cloudflare/Cloudflare WARP/"
+      - "D:/Program Files/Cmake/bin/"
+      - "C:/Users/xenia/AppData/Local/Programs/Python/Python313/Scripts/"
+      - "C:/Users/xenia/AppData/Local/Programs/Python/Python313/"
+      - "C:/Users/xenia/AppData/Local/Programs/Python/Launcher/"
+      - "C:/Users/xenia/.local/bin/"
+      - "C:/Users/xenia/AppData/Local/Microsoft/WindowsApps/"
+      - "C:/Users/xenia/AppData/Local/Programs/Ollama/"
+      - "C:/tools/llvm-mingw/llvm-mingw-20260616-ucrt-x86_64/llvm-mingw-20260616-ucrt-x86_64/bin/"
+      - "C:/Users/xenia/AppData/Local/SharpSFV/"
+      - "D:/VS/product/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/bin/"
+      - "D:/VS/product/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/"
+      - "D:/VS/product/Common7/IDE/VC/Linux/bin/ConnectionManagerExe/"
+      - "D:/VS/product/VC/vcpkg/"
+    searched_directories:
+      - "D:/VS/product/VC/Tools/MSVC/14.51.36231/bin/Hostx64/x64/link.com"
+    found: "D:/VS/product/VC/Tools/MSVC/14.51.36231/bin/Hostx64/x64/link.exe"
+    search_context:
+      ENV{PATH}:
+        - "D:\\VS\\product\\VC\\Tools\\MSVC\\14.51.36231\\bin\\HostX86\\x64"
+        - "D:\\VS\\product\\VC\\Tools\\MSVC\\14.51.36231\\bin\\HostX86\\x86"
+        - "D:\\VS\\product\\Common7\\IDE\\VC\\VCPackages"
+        - "D:\\VS\\product\\Common7\\IDE\\CommonExtensions\\Microsoft\\TestWindow"
+        - "D:\\VS\\product\\Common7\\IDE\\CommonExtensions\\Microsoft\\TeamFoundation\\Team Explorer"
+        - "D:\\VS\\product\\MSBuild\\Current\\bin\\Roslyn"
+        - "C:\\Program Files (x86)\\Microsoft SDKs\\Windows\\v10.0A\\bin\\NETFX 4.8.1 Tools\\"
+        - "D:\\VS\\product\\Team Tools\\DiagnosticsHub\\Collector"
+        - "D:\\VS\\product\\Common7\\IDE\\Extensions\\Microsoft\\CodeCoverage.Console"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\bin\\10.0.28000.0\\\\x86"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\bin\\\\x86"
+        - "D:\\VS\\product\\\\MSBuild\\Current\\Bin\\amd64"
+        - "C:\\Windows\\Microsoft.NET\\Framework\\v4.0.30319"
+        - "D:\\VS\\product\\Common7\\IDE\\"
+        - "D:\\VS\\product\\Common7\\Tools\\"
+        - "D:\\Program Files\\Vvulkan\\Bin"
+        - "C:\\Program Files\\Common Files\\Oracle\\Java\\javapath"
+        - "C:\\Windows\\system32"
+        - "C:\\Windows"
+        - "C:\\Windows\\System32\\Wbem"
+        - "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\Windows\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\"
+        - "C:\\Program Files\\PuTTY\\"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Program Files\\Cloudflare\\Cloudflare WARP\\"
+        - "D:\\Program Files\\Cmake\\bin"
+        - "C:\\Users\\xenia\\AppData\\Local\\Programs\\Python\\Python313\\Scripts\\"
+        - "C:\\Users\\xenia\\AppData\\Local\\Programs\\Python\\Python313\\"
+        - "C:\\Users\\xenia\\AppData\\Local\\Programs\\Python\\Launcher\\"
+        - "C:\\Users\\xenia\\.local\\bin"
+        - "C:\\Users\\xenia\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\xenia\\AppData\\Local\\Programs\\Ollama"
+        - "C:\\tools\\llvm-mingw\\llvm-mingw-20260616-ucrt-x86_64\\llvm-mingw-20260616-ucrt-x86_64\\bin"
+        - "C:\\Users\\xenia\\AppData\\Local\\SharpSFV"
+        - "D:\\VS\\product\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\bin"
+        - "D:\\VS\\product\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\Ninja"
+        - "D:\\VS\\product\\Common7\\IDE\\VC\\Linux\\bin\\ConnectionManagerExe"
+        - "D:\\VS\\product\\VC\\vcpkg"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "D:/Program Files/Cmake/share/cmake-4.4/Modules/CMakeFindBinUtils.cmake:37 (find_program)"
+      - "D:/Program Files/Cmake/share/cmake-4.4/Modules/CMakeFindBinUtils.cmake:64 (__resolve_tool_path)"
+      - "D:/Program Files/Cmake/share/cmake-4.4/Modules/CMakeFindBinUtils.cmake:103 (__resolve_linker_path)"
+      - "D:/Program Files/Cmake/share/cmake-4.4/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "_CMAKE_TOOL_WITH_PATH"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "lld-link"
+    candidate_directories:
+      - "D:/VS/product/VC/Tools/MSVC/14.51.36231/bin/Hostx64/x64/"
+      - "D:/VS/product/VC/Tools/MSVC/14.51.36231/bin/Hostx86/x64/"
+      - "D:/VS/product/VC/Tools/MSVC/14.51.36231/bin/Hostx86/x86/"
+      - "D:/VS/product/Common7/IDE/VC/vcpackages/"
+      - "D:/VS/product/Common7/IDE/CommonExtensions/Microsoft/TestWindow/"
+      - "D:/VS/product/Common7/IDE/CommonExtensions/Microsoft/TeamFoundation/Team Explorer/"
+      - "D:/VS/product/MSBuild/Current/Bin/Roslyn/"
+      - "C:/Program Files (x86)/Microsoft SDKs/Windows/v10.0A/bin/NETFX 4.8.1 Tools/"
+      - "D:/VS/product/Team Tools/DiagnosticsHub/Collector/"
+      - "D:/VS/product/Common7/IDE/Extensions/Microsoft/CodeCoverage.Console/"
+      - "C:/Program Files (x86)/Windows Kits/10/bin/10.0.28000.0/x86/"
+      - "C:/Program Files (x86)/Windows Kits/10/bin/x86/"
+      - "D:/VS/product/MSBuild/Current/Bin/amd64/"
+      - "C:/Windows/Microsoft.NET/Framework/v4.0.30319/"
+      - "D:/VS/product/Common7/IDE/"
+      - "D:/VS/product/Common7/Tools/"
+      - "D:/Program Files/Vvulkan/Bin/"
+      - "C:/Program Files/Common Files/Oracle/Java/javapath/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "C:/Program Files/dotnet/"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/"
+      - "C:/Program Files/PuTTY/"
+      - "C:/Program Files/Git/cmd/"
+      - "C:/Program Files/Cloudflare/Cloudflare WARP/"
+      - "D:/Program Files/Cmake/bin/"
+      - "C:/Users/xenia/AppData/Local/Programs/Python/Python313/Scripts/"
+      - "C:/Users/xenia/AppData/Local/Programs/Python/Python313/"
+      - "C:/Users/xenia/AppData/Local/Programs/Python/Launcher/"
+      - "C:/Users/xenia/.local/bin/"
+      - "C:/Users/xenia/AppData/Local/Microsoft/WindowsApps/"
+      - "C:/Users/xenia/AppData/Local/Programs/Ollama/"
+      - "C:/tools/llvm-mingw/llvm-mingw-20260616-ucrt-x86_64/llvm-mingw-20260616-ucrt-x86_64/bin/"
+      - "C:/Users/xenia/AppData/Local/SharpSFV/"
+      - "D:/VS/product/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/bin/"
+      - "D:/VS/product/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/"
+      - "D:/VS/product/Common7/IDE/VC/Linux/bin/ConnectionManagerExe/"
+      - "D:/VS/product/VC/vcpkg/"
+    searched_directories:
+      - "D:/VS/product/VC/Tools/MSVC/14.51.36231/bin/Hostx64/x64/lld-link.com"
+      - "D:/VS/product/VC/Tools/MSVC/14.51.36231/bin/Hostx64/x64/lld-link.exe"
+      - "D:/VS/product/VC/Tools/MSVC/14.51.36231/bin/Hostx64/x64/lld-link"
+      - "D:/VS/product/VC/Tools/MSVC/14.51.36231/bin/Hostx86/x64/lld-link.com"
+      - "D:/VS/product/VC/Tools/MSVC/14.51.36231/bin/Hostx86/x64/lld-link.exe"
+      - "D:/VS/product/VC/Tools/MSVC/14.51.36231/bin/Hostx86/x64/lld-link"
+      - "D:/VS/product/VC/Tools/MSVC/14.51.36231/bin/Hostx86/x86/lld-link.com"
+      - "D:/VS/product/VC/Tools/MSVC/14.51.36231/bin/Hostx86/x86/lld-link.exe"
+      - "D:/VS/product/VC/Tools/MSVC/14.51.36231/bin/Hostx86/x86/lld-link"
+      - "D:/VS/product/Common7/IDE/VC/vcpackages/lld-link.com"
+      - "D:/VS/product/Common7/IDE/VC/vcpackages/lld-link.exe"
+      - "D:/VS/product/Common7/IDE/VC/vcpackages/lld-link"
+      - "D:/VS/product/Common7/IDE/CommonExtensions/Microsoft/TestWindow/lld-link.com"
+      - "D:/VS/product/Common7/IDE/CommonExtensions/Microsoft/TestWindow/lld-link.exe"
+      - "D:/VS/product/Common7/IDE/CommonExtensions/Microsoft/TestWindow/lld-link"
+      - "D:/VS/product/Common7/IDE/CommonExtensions/Microsoft/TeamFoundation/Team Explorer/lld-link.com"
+      - "D:/VS/product/Common7/IDE/CommonExtensions/Microsoft/TeamFoundation/Team Explorer/lld-link.exe"
+      - "D:/VS/product/Common7/IDE/CommonExtensions/Microsoft/TeamFoundation/Team Explorer/lld-link"
+      - "D:/VS/product/MSBuild/Current/Bin/Roslyn/lld-link.com"
+      - "D:/VS/product/MSBuild/Current/Bin/Roslyn/lld-link.exe"
+      - "D:/VS/product/MSBuild/Current/Bin/Roslyn/lld-link"
+      - "C:/Program Files (x86)/Microsoft SDKs/Windows/v10.0A/bin/NETFX 4.8.1 Tools/lld-link.com"
+      - "C:/Program Files (x86)/Microsoft SDKs/Windows/v10.0A/bin/NETFX 4.8.1 Tools/lld-link.exe"
+      - "C:/Program Files (x86)/Microsoft SDKs/Windows/v10.0A/bin/NETFX 4.8.1 Tools/lld-link"
+      - "D:/VS/product/Team Tools/DiagnosticsHub/Collector/lld-link.com"
+      - "D:/VS/product/Team Tools/DiagnosticsHub/Collector/lld-link.exe"
+      - "D:/VS/product/Team Tools/DiagnosticsHub/Collector/lld-link"
+      - "D:/VS/product/Common7/IDE/Extensions/Microsoft/CodeCoverage.Console/lld-link.com"
+      - "D:/VS/product/Common7/IDE/Extensions/Microsoft/CodeCoverage.Console/lld-link.exe"
+      - "D:/VS/product/Common7/IDE/Extensions/Microsoft/CodeCoverage.Console/lld-link"
+      - "C:/Program Files (x86)/Windows Kits/10/bin/10.0.28000.0/x86/lld-link.com"
+      - "C:/Program Files (x86)/Windows Kits/10/bin/10.0.28000.0/x86/lld-link.exe"
+      - "C:/Program Files (x86)/Windows Kits/10/bin/10.0.28000.0/x86/lld-link"
+      - "C:/Program Files (x86)/Windows Kits/10/bin/x86/lld-link.com"
+      - "C:/Program Files (x86)/Windows Kits/10/bin/x86/lld-link.exe"
+      - "C:/Program Files (x86)/Windows Kits/10/bin/x86/lld-link"
+      - "D:/VS/product/MSBuild/Current/Bin/amd64/lld-link.com"
+      - "D:/VS/product/MSBuild/Current/Bin/amd64/lld-link.exe"
+      - "D:/VS/product/MSBuild/Current/Bin/amd64/lld-link"
+      - "C:/Windows/Microsoft.NET/Framework/v4.0.30319/lld-link.com"
+      - "C:/Windows/Microsoft.NET/Framework/v4.0.30319/lld-link.exe"
+      - "C:/Windows/Microsoft.NET/Framework/v4.0.30319/lld-link"
+      - "D:/VS/product/Common7/IDE/lld-link.com"
+      - "D:/VS/product/Common7/IDE/lld-link.exe"
+      - "D:/VS/product/Common7/IDE/lld-link"
+      - "D:/VS/product/Common7/Tools/lld-link.com"
+      - "D:/VS/product/Common7/Tools/lld-link.exe"
+      - "D:/VS/product/Common7/Tools/lld-link"
+      - "D:/Program Files/Vvulkan/Bin/lld-link.com"
+      - "D:/Program Files/Vvulkan/Bin/lld-link.exe"
+      - "D:/Program Files/Vvulkan/Bin/lld-link"
+      - "C:/Program Files/Common Files/Oracle/Java/javapath/lld-link.com"
+      - "C:/Program Files/Common Files/Oracle/Java/javapath/lld-link.exe"
+      - "C:/Program Files/Common Files/Oracle/Java/javapath/lld-link"
+      - "C:/Windows/System32/lld-link.com"
+      - "C:/Windows/System32/lld-link.exe"
+      - "C:/Windows/System32/lld-link"
+      - "C:/Windows/lld-link.com"
+      - "C:/Windows/lld-link.exe"
+      - "C:/Windows/lld-link"
+      - "C:/Windows/System32/wbem/lld-link.com"
+      - "C:/Windows/System32/wbem/lld-link.exe"
+      - "C:/Windows/System32/wbem/lld-link"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/lld-link.com"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/lld-link.exe"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/lld-link"
+      - "C:/Windows/System32/OpenSSH/lld-link.com"
+      - "C:/Windows/System32/OpenSSH/lld-link.exe"
+      - "C:/Windows/System32/OpenSSH/lld-link"
+      - "C:/Program Files/dotnet/lld-link.com"
+      - "C:/Program Files/dotnet/lld-link.exe"
+      - "C:/Program Files/dotnet/lld-link"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/lld-link.com"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/lld-link.exe"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/lld-link"
+      - "C:/Program Files/PuTTY/lld-link.com"
+      - "C:/Program Files/PuTTY/lld-link.exe"
+      - "C:/Program Files/PuTTY/lld-link"
+      - "C:/Program Files/Git/cmd/lld-link.com"
+      - "C:/Program Files/Git/cmd/lld-link.exe"
+      - "C:/Program Files/Git/cmd/lld-link"
+      - "C:/Program Files/Cloudflare/Cloudflare WARP/lld-link.com"
+      - "C:/Program Files/Cloudflare/Cloudflare WARP/lld-link.exe"
+      - "C:/Program Files/Cloudflare/Cloudflare WARP/lld-link"
+      - "D:/Program Files/Cmake/bin/lld-link.com"
+      - "D:/Program Files/Cmake/bin/lld-link.exe"
+      - "D:/Program Files/Cmake/bin/lld-link"
+      - "C:/Users/xenia/AppData/Local/Programs/Python/Python313/Scripts/lld-link.com"
+      - "C:/Users/xenia/AppData/Local/Programs/Python/Python313/Scripts/lld-link.exe"
+      - "C:/Users/xenia/AppData/Local/Programs/Python/Python313/Scripts/lld-link"
+      - "C:/Users/xenia/AppData/Local/Programs/Python/Python313/lld-link.com"
+      - "C:/Users/xenia/AppData/Local/Programs/Python/Python313/lld-link.exe"
+      - "C:/Users/xenia/AppData/Local/Programs/Python/Python313/lld-link"
+      - "C:/Users/xenia/AppData/Local/Programs/Python/Launcher/lld-link.com"
+      - "C:/Users/xenia/AppData/Local/Programs/Python/Launcher/lld-link.exe"
+      - "C:/Users/xenia/AppData/Local/Programs/Python/Launcher/lld-link"
+      - "C:/Users/xenia/.local/bin/lld-link.com"
+      - "C:/Users/xenia/.local/bin/lld-link.exe"
+      - "C:/Users/xenia/.local/bin/lld-link"
+      - "C:/Users/xenia/AppData/Local/Microsoft/WindowsApps/lld-link.com"
+      - "C:/Users/xenia/AppData/Local/Microsoft/WindowsApps/lld-link.exe"
+      - "C:/Users/xenia/AppData/Local/Microsoft/WindowsApps/lld-link"
+      - "C:/Users/xenia/AppData/Local/Programs/Ollama/lld-link.com"
+      - "C:/Users/xenia/AppData/Local/Programs/Ollama/lld-link.exe"
+      - "C:/Users/xenia/AppData/Local/Programs/Ollama/lld-link"
+      - "C:/tools/llvm-mingw/llvm-mingw-20260616-ucrt-x86_64/llvm-mingw-20260616-ucrt-x86_64/bin/lld-link.com"
+      - "C:/tools/llvm-mingw/llvm-mingw-20260616-ucrt-x86_64/llvm-mingw-20260616-ucrt-x86_64/bin/lld-link.exe"
+      - "C:/tools/llvm-mingw/llvm-mingw-20260616-ucrt-x86_64/llvm-mingw-20260616-ucrt-x86_64/bin/lld-link"
+      - "C:/Users/xenia/AppData/Local/SharpSFV/lld-link.com"
+      - "C:/Users/xenia/AppData/Local/SharpSFV/lld-link.exe"
+      - "C:/Users/xenia/AppData/Local/SharpSFV/lld-link"
+      - "D:/VS/product/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/bin/lld-link.com"
+      - "D:/VS/product/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/bin/lld-link.exe"
+      - "D:/VS/product/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/bin/lld-link"
+      - "D:/VS/product/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/lld-link.com"
+      - "D:/VS/product/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/lld-link.exe"
+      - "D:/VS/product/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/lld-link"
+      - "D:/VS/product/Common7/IDE/VC/Linux/bin/ConnectionManagerExe/lld-link.com"
+      - "D:/VS/product/Common7/IDE/VC/Linux/bin/ConnectionManagerExe/lld-link.exe"
+      - "D:/VS/product/Common7/IDE/VC/Linux/bin/ConnectionManagerExe/lld-link"
+      - "D:/VS/product/VC/vcpkg/lld-link.com"
+      - "D:/VS/product/VC/vcpkg/lld-link.exe"
+      - "D:/VS/product/VC/vcpkg/lld-link"
+    found: false
+    search_context:
+      ENV{PATH}:
+        - "D:\\VS\\product\\VC\\Tools\\MSVC\\14.51.36231\\bin\\HostX86\\x64"
+        - "D:\\VS\\product\\VC\\Tools\\MSVC\\14.51.36231\\bin\\HostX86\\x86"
+        - "D:\\VS\\product\\Common7\\IDE\\VC\\VCPackages"
+        - "D:\\VS\\product\\Common7\\IDE\\CommonExtensions\\Microsoft\\TestWindow"
+        - "D:\\VS\\product\\Common7\\IDE\\CommonExtensions\\Microsoft\\TeamFoundation\\Team Explorer"
+        - "D:\\VS\\product\\MSBuild\\Current\\bin\\Roslyn"
+        - "C:\\Program Files (x86)\\Microsoft SDKs\\Windows\\v10.0A\\bin\\NETFX 4.8.1 Tools\\"
+        - "D:\\VS\\product\\Team Tools\\DiagnosticsHub\\Collector"
+        - "D:\\VS\\product\\Common7\\IDE\\Extensions\\Microsoft\\CodeCoverage.Console"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\bin\\10.0.28000.0\\\\x86"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\bin\\\\x86"
+        - "D:\\VS\\product\\\\MSBuild\\Current\\Bin\\amd64"
+        - "C:\\Windows\\Microsoft.NET\\Framework\\v4.0.30319"
+        - "D:\\VS\\product\\Common7\\IDE\\"
+        - "D:\\VS\\product\\Common7\\Tools\\"
+        - "D:\\Program Files\\Vvulkan\\Bin"
+        - "C:\\Program Files\\Common Files\\Oracle\\Java\\javapath"
+        - "C:\\Windows\\system32"
+        - "C:\\Windows"
+        - "C:\\Windows\\System32\\Wbem"
+        - "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\Windows\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\"
+        - "C:\\Program Files\\PuTTY\\"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Program Files\\Cloudflare\\Cloudflare WARP\\"
+        - "D:\\Program Files\\Cmake\\bin"
+        - "C:\\Users\\xenia\\AppData\\Local\\Programs\\Python\\Python313\\Scripts\\"
+        - "C:\\Users\\xenia\\AppData\\Local\\Programs\\Python\\Python313\\"
+        - "C:\\Users\\xenia\\AppData\\Local\\Programs\\Python\\Launcher\\"
+        - "C:\\Users\\xenia\\.local\\bin"
+        - "C:\\Users\\xenia\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\xenia\\AppData\\Local\\Programs\\Ollama"
+        - "C:\\tools\\llvm-mingw\\llvm-mingw-20260616-ucrt-x86_64\\llvm-mingw-20260616-ucrt-x86_64\\bin"
+        - "C:\\Users\\xenia\\AppData\\Local\\SharpSFV"
+        - "D:\\VS\\product\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\bin"
+        - "D:\\VS\\product\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\Ninja"
+        - "D:\\VS\\product\\Common7\\IDE\\VC\\Linux\\bin\\ConnectionManagerExe"
+        - "D:\\VS\\product\\VC\\vcpkg"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "D:/Program Files/Cmake/share/cmake-4.4/Modules/CMakeFindBinUtils.cmake:247 (find_program)"
+      - "D:/Program Files/Cmake/share/cmake-4.4/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "CMAKE_LINKER"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "link"
+    candidate_directories:
+      - "D:/VS/product/VC/Tools/MSVC/14.51.36231/bin/Hostx64/x64/"
+      - "D:/VS/product/VC/Tools/MSVC/14.51.36231/bin/Hostx86/x64/"
+      - "D:/VS/product/VC/Tools/MSVC/14.51.36231/bin/Hostx86/x86/"
+      - "D:/VS/product/Common7/IDE/VC/vcpackages/"
+      - "D:/VS/product/Common7/IDE/CommonExtensions/Microsoft/TestWindow/"
+      - "D:/VS/product/Common7/IDE/CommonExtensions/Microsoft/TeamFoundation/Team Explorer/"
+      - "D:/VS/product/MSBuild/Current/Bin/Roslyn/"
+      - "C:/Program Files (x86)/Microsoft SDKs/Windows/v10.0A/bin/NETFX 4.8.1 Tools/"
+      - "D:/VS/product/Team Tools/DiagnosticsHub/Collector/"
+      - "D:/VS/product/Common7/IDE/Extensions/Microsoft/CodeCoverage.Console/"
+      - "C:/Program Files (x86)/Windows Kits/10/bin/10.0.28000.0/x86/"
+      - "C:/Program Files (x86)/Windows Kits/10/bin/x86/"
+      - "D:/VS/product/MSBuild/Current/Bin/amd64/"
+      - "C:/Windows/Microsoft.NET/Framework/v4.0.30319/"
+      - "D:/VS/product/Common7/IDE/"
+      - "D:/VS/product/Common7/Tools/"
+      - "D:/Program Files/Vvulkan/Bin/"
+      - "C:/Program Files/Common Files/Oracle/Java/javapath/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "C:/Program Files/dotnet/"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/"
+      - "C:/Program Files/PuTTY/"
+      - "C:/Program Files/Git/cmd/"
+      - "C:/Program Files/Cloudflare/Cloudflare WARP/"
+      - "D:/Program Files/Cmake/bin/"
+      - "C:/Users/xenia/AppData/Local/Programs/Python/Python313/Scripts/"
+      - "C:/Users/xenia/AppData/Local/Programs/Python/Python313/"
+      - "C:/Users/xenia/AppData/Local/Programs/Python/Launcher/"
+      - "C:/Users/xenia/.local/bin/"
+      - "C:/Users/xenia/AppData/Local/Microsoft/WindowsApps/"
+      - "C:/Users/xenia/AppData/Local/Programs/Ollama/"
+      - "C:/tools/llvm-mingw/llvm-mingw-20260616-ucrt-x86_64/llvm-mingw-20260616-ucrt-x86_64/bin/"
+      - "C:/Users/xenia/AppData/Local/SharpSFV/"
+      - "D:/VS/product/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/bin/"
+      - "D:/VS/product/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/"
+      - "D:/VS/product/Common7/IDE/VC/Linux/bin/ConnectionManagerExe/"
+      - "D:/VS/product/VC/vcpkg/"
+    searched_directories:
+      - "D:/VS/product/VC/Tools/MSVC/14.51.36231/bin/Hostx64/x64/link.com"
+    found: "D:/VS/product/VC/Tools/MSVC/14.51.36231/bin/Hostx64/x64/link.exe"
+    search_context:
+      ENV{PATH}:
+        - "D:\\VS\\product\\VC\\Tools\\MSVC\\14.51.36231\\bin\\HostX86\\x64"
+        - "D:\\VS\\product\\VC\\Tools\\MSVC\\14.51.36231\\bin\\HostX86\\x86"
+        - "D:\\VS\\product\\Common7\\IDE\\VC\\VCPackages"
+        - "D:\\VS\\product\\Common7\\IDE\\CommonExtensions\\Microsoft\\TestWindow"
+        - "D:\\VS\\product\\Common7\\IDE\\CommonExtensions\\Microsoft\\TeamFoundation\\Team Explorer"
+        - "D:\\VS\\product\\MSBuild\\Current\\bin\\Roslyn"
+        - "C:\\Program Files (x86)\\Microsoft SDKs\\Windows\\v10.0A\\bin\\NETFX 4.8.1 Tools\\"
+        - "D:\\VS\\product\\Team Tools\\DiagnosticsHub\\Collector"
+        - "D:\\VS\\product\\Common7\\IDE\\Extensions\\Microsoft\\CodeCoverage.Console"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\bin\\10.0.28000.0\\\\x86"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\bin\\\\x86"
+        - "D:\\VS\\product\\\\MSBuild\\Current\\Bin\\amd64"
+        - "C:\\Windows\\Microsoft.NET\\Framework\\v4.0.30319"
+        - "D:\\VS\\product\\Common7\\IDE\\"
+        - "D:\\VS\\product\\Common7\\Tools\\"
+        - "D:\\Program Files\\Vvulkan\\Bin"
+        - "C:\\Program Files\\Common Files\\Oracle\\Java\\javapath"
+        - "C:\\Windows\\system32"
+        - "C:\\Windows"
+        - "C:\\Windows\\System32\\Wbem"
+        - "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\Windows\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\"
+        - "C:\\Program Files\\PuTTY\\"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Program Files\\Cloudflare\\Cloudflare WARP\\"
+        - "D:\\Program Files\\Cmake\\bin"
+        - "C:\\Users\\xenia\\AppData\\Local\\Programs\\Python\\Python313\\Scripts\\"
+        - "C:\\Users\\xenia\\AppData\\Local\\Programs\\Python\\Python313\\"
+        - "C:\\Users\\xenia\\AppData\\Local\\Programs\\Python\\Launcher\\"
+        - "C:\\Users\\xenia\\.local\\bin"
+        - "C:\\Users\\xenia\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\xenia\\AppData\\Local\\Programs\\Ollama"
+        - "C:\\tools\\llvm-mingw\\llvm-mingw-20260616-ucrt-x86_64\\llvm-mingw-20260616-ucrt-x86_64\\bin"
+        - "C:\\Users\\xenia\\AppData\\Local\\SharpSFV"
+        - "D:\\VS\\product\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\bin"
+        - "D:\\VS\\product\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\Ninja"
+        - "D:\\VS\\product\\Common7\\IDE\\VC\\Linux\\bin\\ConnectionManagerExe"
+        - "D:\\VS\\product\\VC\\vcpkg"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "D:/Program Files/Cmake/share/cmake-4.4/Modules/CMakeFindBinUtils.cmake:247 (find_program)"
+      - "D:/Program Files/Cmake/share/cmake-4.4/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "CMAKE_MT"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "mt"
+    candidate_directories:
+      - "D:/VS/product/VC/Tools/MSVC/14.51.36231/bin/Hostx64/x64/"
+      - "D:/VS/product/VC/Tools/MSVC/14.51.36231/bin/Hostx86/x64/"
+      - "D:/VS/product/VC/Tools/MSVC/14.51.36231/bin/Hostx86/x86/"
+      - "D:/VS/product/Common7/IDE/VC/vcpackages/"
+      - "D:/VS/product/Common7/IDE/CommonExtensions/Microsoft/TestWindow/"
+      - "D:/VS/product/Common7/IDE/CommonExtensions/Microsoft/TeamFoundation/Team Explorer/"
+      - "D:/VS/product/MSBuild/Current/Bin/Roslyn/"
+      - "C:/Program Files (x86)/Microsoft SDKs/Windows/v10.0A/bin/NETFX 4.8.1 Tools/"
+      - "D:/VS/product/Team Tools/DiagnosticsHub/Collector/"
+      - "D:/VS/product/Common7/IDE/Extensions/Microsoft/CodeCoverage.Console/"
+      - "C:/Program Files (x86)/Windows Kits/10/bin/10.0.28000.0/x86/"
+      - "C:/Program Files (x86)/Windows Kits/10/bin/x86/"
+      - "D:/VS/product/MSBuild/Current/Bin/amd64/"
+      - "C:/Windows/Microsoft.NET/Framework/v4.0.30319/"
+      - "D:/VS/product/Common7/IDE/"
+      - "D:/VS/product/Common7/Tools/"
+      - "D:/Program Files/Vvulkan/Bin/"
+      - "C:/Program Files/Common Files/Oracle/Java/javapath/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "C:/Program Files/dotnet/"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/"
+      - "C:/Program Files/PuTTY/"
+      - "C:/Program Files/Git/cmd/"
+      - "C:/Program Files/Cloudflare/Cloudflare WARP/"
+      - "D:/Program Files/Cmake/bin/"
+      - "C:/Users/xenia/AppData/Local/Programs/Python/Python313/Scripts/"
+      - "C:/Users/xenia/AppData/Local/Programs/Python/Python313/"
+      - "C:/Users/xenia/AppData/Local/Programs/Python/Launcher/"
+      - "C:/Users/xenia/.local/bin/"
+      - "C:/Users/xenia/AppData/Local/Microsoft/WindowsApps/"
+      - "C:/Users/xenia/AppData/Local/Programs/Ollama/"
+      - "C:/tools/llvm-mingw/llvm-mingw-20260616-ucrt-x86_64/llvm-mingw-20260616-ucrt-x86_64/bin/"
+      - "C:/Users/xenia/AppData/Local/SharpSFV/"
+      - "D:/VS/product/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/bin/"
+      - "D:/VS/product/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/"
+      - "D:/VS/product/Common7/IDE/VC/Linux/bin/ConnectionManagerExe/"
+      - "D:/VS/product/VC/vcpkg/"
+    searched_directories:
+      - "D:/VS/product/VC/Tools/MSVC/14.51.36231/bin/Hostx64/x64/mt.com"
+      - "D:/VS/product/VC/Tools/MSVC/14.51.36231/bin/Hostx64/x64/mt.exe"
+      - "D:/VS/product/VC/Tools/MSVC/14.51.36231/bin/Hostx64/x64/mt"
+      - "D:/VS/product/VC/Tools/MSVC/14.51.36231/bin/Hostx86/x64/mt.com"
+      - "D:/VS/product/VC/Tools/MSVC/14.51.36231/bin/Hostx86/x64/mt.exe"
+      - "D:/VS/product/VC/Tools/MSVC/14.51.36231/bin/Hostx86/x64/mt"
+      - "D:/VS/product/VC/Tools/MSVC/14.51.36231/bin/Hostx86/x86/mt.com"
+      - "D:/VS/product/VC/Tools/MSVC/14.51.36231/bin/Hostx86/x86/mt.exe"
+      - "D:/VS/product/VC/Tools/MSVC/14.51.36231/bin/Hostx86/x86/mt"
+      - "D:/VS/product/Common7/IDE/VC/vcpackages/mt.com"
+      - "D:/VS/product/Common7/IDE/VC/vcpackages/mt.exe"
+      - "D:/VS/product/Common7/IDE/VC/vcpackages/mt"
+      - "D:/VS/product/Common7/IDE/CommonExtensions/Microsoft/TestWindow/mt.com"
+      - "D:/VS/product/Common7/IDE/CommonExtensions/Microsoft/TestWindow/mt.exe"
+      - "D:/VS/product/Common7/IDE/CommonExtensions/Microsoft/TestWindow/mt"
+      - "D:/VS/product/Common7/IDE/CommonExtensions/Microsoft/TeamFoundation/Team Explorer/mt.com"
+      - "D:/VS/product/Common7/IDE/CommonExtensions/Microsoft/TeamFoundation/Team Explorer/mt.exe"
+      - "D:/VS/product/Common7/IDE/CommonExtensions/Microsoft/TeamFoundation/Team Explorer/mt"
+      - "D:/VS/product/MSBuild/Current/Bin/Roslyn/mt.com"
+      - "D:/VS/product/MSBuild/Current/Bin/Roslyn/mt.exe"
+      - "D:/VS/product/MSBuild/Current/Bin/Roslyn/mt"
+      - "C:/Program Files (x86)/Microsoft SDKs/Windows/v10.0A/bin/NETFX 4.8.1 Tools/mt.com"
+      - "C:/Program Files (x86)/Microsoft SDKs/Windows/v10.0A/bin/NETFX 4.8.1 Tools/mt.exe"
+      - "C:/Program Files (x86)/Microsoft SDKs/Windows/v10.0A/bin/NETFX 4.8.1 Tools/mt"
+      - "D:/VS/product/Team Tools/DiagnosticsHub/Collector/mt.com"
+      - "D:/VS/product/Team Tools/DiagnosticsHub/Collector/mt.exe"
+      - "D:/VS/product/Team Tools/DiagnosticsHub/Collector/mt"
+      - "D:/VS/product/Common7/IDE/Extensions/Microsoft/CodeCoverage.Console/mt.com"
+      - "D:/VS/product/Common7/IDE/Extensions/Microsoft/CodeCoverage.Console/mt.exe"
+      - "D:/VS/product/Common7/IDE/Extensions/Microsoft/CodeCoverage.Console/mt"
+      - "C:/Program Files (x86)/Windows Kits/10/bin/10.0.28000.0/x86/mt.com"
+    found: "C:/Program Files (x86)/Windows Kits/10/bin/10.0.28000.0/x86/mt.exe"
+    search_context:
+      ENV{PATH}:
+        - "D:\\VS\\product\\VC\\Tools\\MSVC\\14.51.36231\\bin\\HostX86\\x64"
+        - "D:\\VS\\product\\VC\\Tools\\MSVC\\14.51.36231\\bin\\HostX86\\x86"
+        - "D:\\VS\\product\\Common7\\IDE\\VC\\VCPackages"
+        - "D:\\VS\\product\\Common7\\IDE\\CommonExtensions\\Microsoft\\TestWindow"
+        - "D:\\VS\\product\\Common7\\IDE\\CommonExtensions\\Microsoft\\TeamFoundation\\Team Explorer"
+        - "D:\\VS\\product\\MSBuild\\Current\\bin\\Roslyn"
+        - "C:\\Program Files (x86)\\Microsoft SDKs\\Windows\\v10.0A\\bin\\NETFX 4.8.1 Tools\\"
+        - "D:\\VS\\product\\Team Tools\\DiagnosticsHub\\Collector"
+        - "D:\\VS\\product\\Common7\\IDE\\Extensions\\Microsoft\\CodeCoverage.Console"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\bin\\10.0.28000.0\\\\x86"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\bin\\\\x86"
+        - "D:\\VS\\product\\\\MSBuild\\Current\\Bin\\amd64"
+        - "C:\\Windows\\Microsoft.NET\\Framework\\v4.0.30319"
+        - "D:\\VS\\product\\Common7\\IDE\\"
+        - "D:\\VS\\product\\Common7\\Tools\\"
+        - "D:\\Program Files\\Vvulkan\\Bin"
+        - "C:\\Program Files\\Common Files\\Oracle\\Java\\javapath"
+        - "C:\\Windows\\system32"
+        - "C:\\Windows"
+        - "C:\\Windows\\System32\\Wbem"
+        - "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\Windows\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\"
+        - "C:\\Program Files\\PuTTY\\"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Program Files\\Cloudflare\\Cloudflare WARP\\"
+        - "D:\\Program Files\\Cmake\\bin"
+        - "C:\\Users\\xenia\\AppData\\Local\\Programs\\Python\\Python313\\Scripts\\"
+        - "C:\\Users\\xenia\\AppData\\Local\\Programs\\Python\\Python313\\"
+        - "C:\\Users\\xenia\\AppData\\Local\\Programs\\Python\\Launcher\\"
+        - "C:\\Users\\xenia\\.local\\bin"
+        - "C:\\Users\\xenia\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\xenia\\AppData\\Local\\Programs\\Ollama"
+        - "C:\\tools\\llvm-mingw\\llvm-mingw-20260616-ucrt-x86_64\\llvm-mingw-20260616-ucrt-x86_64\\bin"
+        - "C:\\Users\\xenia\\AppData\\Local\\SharpSFV"
+        - "D:\\VS\\product\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\bin"
+        - "D:\\VS\\product\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\Ninja"
+        - "D:\\VS\\product\\Common7\\IDE\\VC\\Linux\\bin\\ConnectionManagerExe"
+        - "D:\\VS\\product\\VC\\vcpkg"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "D:/Program Files/Cmake/share/cmake-4.4/Modules/CMakeFindBinUtils.cmake:247 (find_program)"
+      - "D:/Program Files/Cmake/share/cmake-4.4/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "CMAKE_AR"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "lib"
+    candidate_directories:
+      - "D:/VS/product/VC/Tools/MSVC/14.51.36231/bin/Hostx64/x64/"
+      - "D:/VS/product/VC/Tools/MSVC/14.51.36231/bin/Hostx86/x64/"
+      - "D:/VS/product/VC/Tools/MSVC/14.51.36231/bin/Hostx86/x86/"
+      - "D:/VS/product/Common7/IDE/VC/vcpackages/"
+      - "D:/VS/product/Common7/IDE/CommonExtensions/Microsoft/TestWindow/"
+      - "D:/VS/product/Common7/IDE/CommonExtensions/Microsoft/TeamFoundation/Team Explorer/"
+      - "D:/VS/product/MSBuild/Current/Bin/Roslyn/"
+      - "C:/Program Files (x86)/Microsoft SDKs/Windows/v10.0A/bin/NETFX 4.8.1 Tools/"
+      - "D:/VS/product/Team Tools/DiagnosticsHub/Collector/"
+      - "D:/VS/product/Common7/IDE/Extensions/Microsoft/CodeCoverage.Console/"
+      - "C:/Program Files (x86)/Windows Kits/10/bin/10.0.28000.0/x86/"
+      - "C:/Program Files (x86)/Windows Kits/10/bin/x86/"
+      - "D:/VS/product/MSBuild/Current/Bin/amd64/"
+      - "C:/Windows/Microsoft.NET/Framework/v4.0.30319/"
+      - "D:/VS/product/Common7/IDE/"
+      - "D:/VS/product/Common7/Tools/"
+      - "D:/Program Files/Vvulkan/Bin/"
+      - "C:/Program Files/Common Files/Oracle/Java/javapath/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "C:/Program Files/dotnet/"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/"
+      - "C:/Program Files/PuTTY/"
+      - "C:/Program Files/Git/cmd/"
+      - "C:/Program Files/Cloudflare/Cloudflare WARP/"
+      - "D:/Program Files/Cmake/bin/"
+      - "C:/Users/xenia/AppData/Local/Programs/Python/Python313/Scripts/"
+      - "C:/Users/xenia/AppData/Local/Programs/Python/Python313/"
+      - "C:/Users/xenia/AppData/Local/Programs/Python/Launcher/"
+      - "C:/Users/xenia/.local/bin/"
+      - "C:/Users/xenia/AppData/Local/Microsoft/WindowsApps/"
+      - "C:/Users/xenia/AppData/Local/Programs/Ollama/"
+      - "C:/tools/llvm-mingw/llvm-mingw-20260616-ucrt-x86_64/llvm-mingw-20260616-ucrt-x86_64/bin/"
+      - "C:/Users/xenia/AppData/Local/SharpSFV/"
+      - "D:/VS/product/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/bin/"
+      - "D:/VS/product/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/"
+      - "D:/VS/product/Common7/IDE/VC/Linux/bin/ConnectionManagerExe/"
+      - "D:/VS/product/VC/vcpkg/"
+    searched_directories:
+      - "D:/VS/product/VC/Tools/MSVC/14.51.36231/bin/Hostx64/x64/lib.com"
+    found: "D:/VS/product/VC/Tools/MSVC/14.51.36231/bin/Hostx64/x64/lib.exe"
+    search_context:
+      ENV{PATH}:
+        - "D:\\VS\\product\\VC\\Tools\\MSVC\\14.51.36231\\bin\\HostX86\\x64"
+        - "D:\\VS\\product\\VC\\Tools\\MSVC\\14.51.36231\\bin\\HostX86\\x86"
+        - "D:\\VS\\product\\Common7\\IDE\\VC\\VCPackages"
+        - "D:\\VS\\product\\Common7\\IDE\\CommonExtensions\\Microsoft\\TestWindow"
+        - "D:\\VS\\product\\Common7\\IDE\\CommonExtensions\\Microsoft\\TeamFoundation\\Team Explorer"
+        - "D:\\VS\\product\\MSBuild\\Current\\bin\\Roslyn"
+        - "C:\\Program Files (x86)\\Microsoft SDKs\\Windows\\v10.0A\\bin\\NETFX 4.8.1 Tools\\"
+        - "D:\\VS\\product\\Team Tools\\DiagnosticsHub\\Collector"
+        - "D:\\VS\\product\\Common7\\IDE\\Extensions\\Microsoft\\CodeCoverage.Console"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\bin\\10.0.28000.0\\\\x86"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\bin\\\\x86"
+        - "D:\\VS\\product\\\\MSBuild\\Current\\Bin\\amd64"
+        - "C:\\Windows\\Microsoft.NET\\Framework\\v4.0.30319"
+        - "D:\\VS\\product\\Common7\\IDE\\"
+        - "D:\\VS\\product\\Common7\\Tools\\"
+        - "D:\\Program Files\\Vvulkan\\Bin"
+        - "C:\\Program Files\\Common Files\\Oracle\\Java\\javapath"
+        - "C:\\Windows\\system32"
+        - "C:\\Windows"
+        - "C:\\Windows\\System32\\Wbem"
+        - "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\Windows\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\"
+        - "C:\\Program Files\\PuTTY\\"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Program Files\\Cloudflare\\Cloudflare WARP\\"
+        - "D:\\Program Files\\Cmake\\bin"
+        - "C:\\Users\\xenia\\AppData\\Local\\Programs\\Python\\Python313\\Scripts\\"
+        - "C:\\Users\\xenia\\AppData\\Local\\Programs\\Python\\Python313\\"
+        - "C:\\Users\\xenia\\AppData\\Local\\Programs\\Python\\Launcher\\"
+        - "C:\\Users\\xenia\\.local\\bin"
+        - "C:\\Users\\xenia\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\xenia\\AppData\\Local\\Programs\\Ollama"
+        - "C:\\tools\\llvm-mingw\\llvm-mingw-20260616-ucrt-x86_64\\llvm-mingw-20260616-ucrt-x86_64\\bin"
+        - "C:\\Users\\xenia\\AppData\\Local\\SharpSFV"
+        - "D:\\VS\\product\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\bin"
+        - "D:\\VS\\product\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\Ninja"
+        - "D:\\VS\\product\\Common7\\IDE\\VC\\Linux\\bin\\ConnectionManagerExe"
+        - "D:\\VS\\product\\VC\\vcpkg"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "D:/Program Files/Cmake/share/cmake-4.4/Modules/CMakeDetermineCompilerId.cmake:501 (find_file)"
+      - "D:/Program Files/Cmake/share/cmake-4.4/Modules/CMakeDetermineCompilerId.cmake:538 (CMAKE_DETERMINE_COMPILER_ID_WRITE)"
+      - "D:/Program Files/Cmake/share/cmake-4.4/Modules/CMakeDetermineCompilerId.cmake:8 (CMAKE_DETERMINE_COMPILER_ID_BUILD)"
+      - "D:/Program Files/Cmake/share/cmake-4.4/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "D:/Program Files/Cmake/share/cmake-4.4/Modules/CMakeDetermineCXXCompiler.cmake:125 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "file"
+    variable: "src_in"
+    description: "Path to a file."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "CMakeCXXCompilerId.cpp.in"
+    candidate_directories:
+      - "D:/Program Files/Cmake/share/cmake-4.4/Modules/"
+    found: "D:/Program Files/Cmake/share/cmake-4.4/Modules/CMakeCXXCompilerId.cpp.in"
+    search_context:
+      ENV{PATH}:
+        - "D:\\VS\\product\\VC\\Tools\\MSVC\\14.51.36231\\bin\\HostX86\\x64"
+        - "D:\\VS\\product\\VC\\Tools\\MSVC\\14.51.36231\\bin\\HostX86\\x86"
+        - "D:\\VS\\product\\Common7\\IDE\\VC\\VCPackages"
+        - "D:\\VS\\product\\Common7\\IDE\\CommonExtensions\\Microsoft\\TestWindow"
+        - "D:\\VS\\product\\Common7\\IDE\\CommonExtensions\\Microsoft\\TeamFoundation\\Team Explorer"
+        - "D:\\VS\\product\\MSBuild\\Current\\bin\\Roslyn"
+        - "C:\\Program Files (x86)\\Microsoft SDKs\\Windows\\v10.0A\\bin\\NETFX 4.8.1 Tools\\"
+        - "D:\\VS\\product\\Team Tools\\DiagnosticsHub\\Collector"
+        - "D:\\VS\\product\\Common7\\IDE\\Extensions\\Microsoft\\CodeCoverage.Console"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\bin\\10.0.28000.0\\\\x86"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\bin\\\\x86"
+        - "D:\\VS\\product\\\\MSBuild\\Current\\Bin\\amd64"
+        - "C:\\Windows\\Microsoft.NET\\Framework\\v4.0.30319"
+        - "D:\\VS\\product\\Common7\\IDE\\"
+        - "D:\\VS\\product\\Common7\\Tools\\"
+        - "D:\\Program Files\\Vvulkan\\Bin"
+        - "C:\\Program Files\\Common Files\\Oracle\\Java\\javapath"
+        - "C:\\Windows\\system32"
+        - "C:\\Windows"
+        - "C:\\Windows\\System32\\Wbem"
+        - "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\Windows\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\"
+        - "C:\\Program Files\\PuTTY\\"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Program Files\\Cloudflare\\Cloudflare WARP\\"
+        - "D:\\Program Files\\Cmake\\bin"
+        - "C:\\Users\\xenia\\AppData\\Local\\Programs\\Python\\Python313\\Scripts\\"
+        - "C:\\Users\\xenia\\AppData\\Local\\Programs\\Python\\Python313\\"
+        - "C:\\Users\\xenia\\AppData\\Local\\Programs\\Python\\Launcher\\"
+        - "C:\\Users\\xenia\\.local\\bin"
+        - "C:\\Users\\xenia\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\xenia\\AppData\\Local\\Programs\\Ollama"
+        - "C:\\tools\\llvm-mingw\\llvm-mingw-20260616-ucrt-x86_64\\llvm-mingw-20260616-ucrt-x86_64\\bin"
+        - "C:\\Users\\xenia\\AppData\\Local\\SharpSFV"
+        - "D:\\VS\\product\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\bin"
+        - "D:\\VS\\product\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\Ninja"
+        - "D:\\VS\\product\\Common7\\IDE\\VC\\Linux\\bin\\ConnectionManagerExe"
+        - "D:\\VS\\product\\VC\\vcpkg"
+      ENV{INCLUDE}:
+        - "D:\\VS\\product\\VC\\Tools\\MSVC\\14.51.36231\\include"
+        - "D:\\VS\\product\\VC\\Tools\\MSVC\\14.51.36231\\ATLMFC\\include"
+        - "D:\\VS\\product\\VC\\Auxiliary\\VS\\include"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\include\\10.0.28000.0\\ucrt"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\\\include\\10.0.28000.0\\\\um"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\\\include\\10.0.28000.0\\\\shared"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\\\include\\10.0.28000.0\\\\winrt"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\\\include\\10.0.28000.0\\\\cppwinrt"
+        - "C:\\Program Files (x86)\\Windows Kits\\NETFXSDK\\4.8.1\\include\\um"
+  -
+    kind: "message-v1"
+    backtrace:
+      - "D:/Program Files/Cmake/share/cmake-4.4/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "D:/Program Files/Cmake/share/cmake-4.4/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "D:/Program Files/Cmake/share/cmake-4.4/Modules/CMakeDetermineCXXCompiler.cmake:125 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+      Compiler:  
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      MSBuild version 18.10.1-1.26427.6+3cd27c13e for .NET Framework
+      Build started 10/10/2026 12:52:09 AM.
+      
+      Project "D:\\ps5emu_poc\\build\\x64\\CMakeFiles\\4.4.4\\CompilerIdCXX\\CompilerIdCXX.vcxproj" on node 1 (default targets).
+      PrepareForBuild:
+        Creating directory "Debug\\".
+        Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
+        Creating directory "Debug\\CompilerIdCXX.tlog\\".
+      InitializeBuildStatus:
+        Creating "Debug\\CompilerIdCXX.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+        Touching "Debug\\CompilerIdCXX.tlog\\unsuccessfulbuild".
+      ClCompile:
+        D:\\VS\\product\\VC\\Tools\\MSVC\\14.51.36231\\bin\\HostX64\\x64\\CL.exe /c /nologo /W0 /WX- /diagnostics:column /Od /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\\\" /Fd"Debug\\vc145.pdb" /external:W0 /Gd /TP /FC /errorReport:queue CMakeCXXCompilerId.cpp
+        CMakeCXXCompilerId.cpp
+      Link:
+        D:\\VS\\product\\VC\\Tools\\MSVC\\14.51.36231\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:".\\CompilerIdCXX.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\\CompilerIdCXX.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\\CompilerIdCXX.lib" /MACHINE:X64 Debug\\CMakeCXXCompilerId.obj
+        CompilerIdCXX.vcxproj -> D:\\ps5emu_poc\\build\\x64\\CMakeFiles\\4.4.4\\CompilerIdCXX\\CompilerIdCXX.exe
+      PostBuildEvent:
+        for %%i in (cl.exe) do @echo CMAKE_CXX_COMPILER=%%~$PATH:i
+        :VCEnd
+        CMAKE_CXX_COMPILER=D:\\VS\\product\\VC\\Tools\\MSVC\\14.51.36231\\bin\\Hostx64\\x64\\cl.exe
+      FinalizeBuildStatus:
+        Deleting file "Debug\\CompilerIdCXX.tlog\\unsuccessfulbuild".
+        Touching "Debug\\CompilerIdCXX.tlog\\CompilerIdCXX.lastbuildstate".
+      Done Building Project "D:\\ps5emu_poc\\build\\x64\\CMakeFiles\\4.4.4\\CompilerIdCXX\\CompilerIdCXX.vcxproj" (default targets).
+      
+      Build succeeded.
+          0 Warning(s)
+          0 Error(s)
+      
+      Time Elapsed 00:00:00.57
+      
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.exe"
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.vcxproj"
+      
+      The CXX compiler identification is MSVC, found in:
+        D:/ps5emu_poc/build/x64/CMakeFiles/4.4.4/CompilerIdCXX/CompilerIdCXX.exe
+      
+  -
+    kind: "find-v1"
+    backtrace:
+      - "D:/Program Files/Cmake/share/cmake-4.4/Modules/CMakeFindBinUtils.cmake:37 (find_program)"
+      - "D:/Program Files/Cmake/share/cmake-4.4/Modules/CMakeFindBinUtils.cmake:64 (__resolve_tool_path)"
+      - "D:/Program Files/Cmake/share/cmake-4.4/Modules/CMakeFindBinUtils.cmake:103 (__resolve_linker_path)"
+      - "D:/Program Files/Cmake/share/cmake-4.4/Modules/CMakeDetermineCXXCompiler.cmake:206 (include)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "_CMAKE_TOOL_WITH_PATH"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "lld-link"
+    candidate_directories:
+      - "D:/VS/product/VC/Tools/MSVC/14.51.36231/bin/Hostx64/x64/"
+      - "D:/VS/product/VC/Tools/MSVC/14.51.36231/bin/Hostx86/x64/"
+      - "D:/VS/product/VC/Tools/MSVC/14.51.36231/bin/Hostx86/x86/"
+      - "D:/VS/product/Common7/IDE/VC/vcpackages/"
+      - "D:/VS/product/Common7/IDE/CommonExtensions/Microsoft/TestWindow/"
+      - "D:/VS/product/Common7/IDE/CommonExtensions/Microsoft/TeamFoundation/Team Explorer/"
+      - "D:/VS/product/MSBuild/Current/Bin/Roslyn/"
+      - "C:/Program Files (x86)/Microsoft SDKs/Windows/v10.0A/bin/NETFX 4.8.1 Tools/"
+      - "D:/VS/product/Team Tools/DiagnosticsHub/Collector/"
+      - "D:/VS/product/Common7/IDE/Extensions/Microsoft/CodeCoverage.Console/"
+      - "C:/Program Files (x86)/Windows Kits/10/bin/10.0.28000.0/x86/"
+      - "C:/Program Files (x86)/Windows Kits/10/bin/x86/"
+      - "D:/VS/product/MSBuild/Current/Bin/amd64/"
+      - "C:/Windows/Microsoft.NET/Framework/v4.0.30319/"
+      - "D:/VS/product/Common7/IDE/"
+      - "D:/VS/product/Common7/Tools/"
+      - "D:/Program Files/Vvulkan/Bin/"
+      - "C:/Program Files/Common Files/Oracle/Java/javapath/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "C:/Program Files/dotnet/"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/"
+      - "C:/Program Files/PuTTY/"
+      - "C:/Program Files/Git/cmd/"
+      - "C:/Program Files/Cloudflare/Cloudflare WARP/"
+      - "D:/Program Files/Cmake/bin/"
+      - "C:/Users/xenia/AppData/Local/Programs/Python/Python313/Scripts/"
+      - "C:/Users/xenia/AppData/Local/Programs/Python/Python313/"
+      - "C:/Users/xenia/AppData/Local/Programs/Python/Launcher/"
+      - "C:/Users/xenia/.local/bin/"
+      - "C:/Users/xenia/AppData/Local/Microsoft/WindowsApps/"
+      - "C:/Users/xenia/AppData/Local/Programs/Ollama/"
+      - "C:/tools/llvm-mingw/llvm-mingw-20260616-ucrt-x86_64/llvm-mingw-20260616-ucrt-x86_64/bin/"
+      - "C:/Users/xenia/AppData/Local/SharpSFV/"
+      - "D:/VS/product/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/bin/"
+      - "D:/VS/product/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/"
+      - "D:/VS/product/Common7/IDE/VC/Linux/bin/ConnectionManagerExe/"
+      - "D:/VS/product/VC/vcpkg/"
+    searched_directories:
+      - "D:/VS/product/VC/Tools/MSVC/14.51.36231/bin/Hostx64/x64/lld-link.com"
+      - "D:/VS/product/VC/Tools/MSVC/14.51.36231/bin/Hostx64/x64/lld-link.exe"
+      - "D:/VS/product/VC/Tools/MSVC/14.51.36231/bin/Hostx64/x64/lld-link"
+      - "D:/VS/product/VC/Tools/MSVC/14.51.36231/bin/Hostx86/x64/lld-link.com"
+      - "D:/VS/product/VC/Tools/MSVC/14.51.36231/bin/Hostx86/x64/lld-link.exe"
+      - "D:/VS/product/VC/Tools/MSVC/14.51.36231/bin/Hostx86/x64/lld-link"
+      - "D:/VS/product/VC/Tools/MSVC/14.51.36231/bin/Hostx86/x86/lld-link.com"
+      - "D:/VS/product/VC/Tools/MSVC/14.51.36231/bin/Hostx86/x86/lld-link.exe"
+      - "D:/VS/product/VC/Tools/MSVC/14.51.36231/bin/Hostx86/x86/lld-link"
+      - "D:/VS/product/Common7/IDE/VC/vcpackages/lld-link.com"
+      - "D:/VS/product/Common7/IDE/VC/vcpackages/lld-link.exe"
+      - "D:/VS/product/Common7/IDE/VC/vcpackages/lld-link"
+      - "D:/VS/product/Common7/IDE/CommonExtensions/Microsoft/TestWindow/lld-link.com"
+      - "D:/VS/product/Common7/IDE/CommonExtensions/Microsoft/TestWindow/lld-link.exe"
+      - "D:/VS/product/Common7/IDE/CommonExtensions/Microsoft/TestWindow/lld-link"
+      - "D:/VS/product/Common7/IDE/CommonExtensions/Microsoft/TeamFoundation/Team Explorer/lld-link.com"
+      - "D:/VS/product/Common7/IDE/CommonExtensions/Microsoft/TeamFoundation/Team Explorer/lld-link.exe"
+      - "D:/VS/product/Common7/IDE/CommonExtensions/Microsoft/TeamFoundation/Team Explorer/lld-link"
+      - "D:/VS/product/MSBuild/Current/Bin/Roslyn/lld-link.com"
+      - "D:/VS/product/MSBuild/Current/Bin/Roslyn/lld-link.exe"
+      - "D:/VS/product/MSBuild/Current/Bin/Roslyn/lld-link"
+      - "C:/Program Files (x86)/Microsoft SDKs/Windows/v10.0A/bin/NETFX 4.8.1 Tools/lld-link.com"
+      - "C:/Program Files (x86)/Microsoft SDKs/Windows/v10.0A/bin/NETFX 4.8.1 Tools/lld-link.exe"
+      - "C:/Program Files (x86)/Microsoft SDKs/Windows/v10.0A/bin/NETFX 4.8.1 Tools/lld-link"
+      - "D:/VS/product/Team Tools/DiagnosticsHub/Collector/lld-link.com"
+      - "D:/VS/product/Team Tools/DiagnosticsHub/Collector/lld-link.exe"
+      - "D:/VS/product/Team Tools/DiagnosticsHub/Collector/lld-link"
+      - "D:/VS/product/Common7/IDE/Extensions/Microsoft/CodeCoverage.Console/lld-link.com"
+      - "D:/VS/product/Common7/IDE/Extensions/Microsoft/CodeCoverage.Console/lld-link.exe"
+      - "D:/VS/product/Common7/IDE/Extensions/Microsoft/CodeCoverage.Console/lld-link"
+      - "C:/Program Files (x86)/Windows Kits/10/bin/10.0.28000.0/x86/lld-link.com"
+      - "C:/Program Files (x86)/Windows Kits/10/bin/10.0.28000.0/x86/lld-link.exe"
+      - "C:/Program Files (x86)/Windows Kits/10/bin/10.0.28000.0/x86/lld-link"
+      - "C:/Program Files (x86)/Windows Kits/10/bin/x86/lld-link.com"
+      - "C:/Program Files (x86)/Windows Kits/10/bin/x86/lld-link.exe"
+      - "C:/Program Files (x86)/Windows Kits/10/bin/x86/lld-link"
+      - "D:/VS/product/MSBuild/Current/Bin/amd64/lld-link.com"
+      - "D:/VS/product/MSBuild/Current/Bin/amd64/lld-link.exe"
+      - "D:/VS/product/MSBuild/Current/Bin/amd64/lld-link"
+      - "C:/Windows/Microsoft.NET/Framework/v4.0.30319/lld-link.com"
+      - "C:/Windows/Microsoft.NET/Framework/v4.0.30319/lld-link.exe"
+      - "C:/Windows/Microsoft.NET/Framework/v4.0.30319/lld-link"
+      - "D:/VS/product/Common7/IDE/lld-link.com"
+      - "D:/VS/product/Common7/IDE/lld-link.exe"
+      - "D:/VS/product/Common7/IDE/lld-link"
+      - "D:/VS/product/Common7/Tools/lld-link.com"
+      - "D:/VS/product/Common7/Tools/lld-link.exe"
+      - "D:/VS/product/Common7/Tools/lld-link"
+      - "D:/Program Files/Vvulkan/Bin/lld-link.com"
+      - "D:/Program Files/Vvulkan/Bin/lld-link.exe"
+      - "D:/Program Files/Vvulkan/Bin/lld-link"
+      - "C:/Program Files/Common Files/Oracle/Java/javapath/lld-link.com"
+      - "C:/Program Files/Common Files/Oracle/Java/javapath/lld-link.exe"
+      - "C:/Program Files/Common Files/Oracle/Java/javapath/lld-link"
+      - "C:/Windows/System32/lld-link.com"
+      - "C:/Windows/System32/lld-link.exe"
+      - "C:/Windows/System32/lld-link"
+      - "C:/Windows/lld-link.com"
+      - "C:/Windows/lld-link.exe"
+      - "C:/Windows/lld-link"
+      - "C:/Windows/System32/wbem/lld-link.com"
+      - "C:/Windows/System32/wbem/lld-link.exe"
+      - "C:/Windows/System32/wbem/lld-link"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/lld-link.com"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/lld-link.exe"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/lld-link"
+      - "C:/Windows/System32/OpenSSH/lld-link.com"
+      - "C:/Windows/System32/OpenSSH/lld-link.exe"
+      - "C:/Windows/System32/OpenSSH/lld-link"
+      - "C:/Program Files/dotnet/lld-link.com"
+      - "C:/Program Files/dotnet/lld-link.exe"
+      - "C:/Program Files/dotnet/lld-link"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/lld-link.com"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/lld-link.exe"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/lld-link"
+      - "C:/Program Files/PuTTY/lld-link.com"
+      - "C:/Program Files/PuTTY/lld-link.exe"
+      - "C:/Program Files/PuTTY/lld-link"
+      - "C:/Program Files/Git/cmd/lld-link.com"
+      - "C:/Program Files/Git/cmd/lld-link.exe"
+      - "C:/Program Files/Git/cmd/lld-link"
+      - "C:/Program Files/Cloudflare/Cloudflare WARP/lld-link.com"
+      - "C:/Program Files/Cloudflare/Cloudflare WARP/lld-link.exe"
+      - "C:/Program Files/Cloudflare/Cloudflare WARP/lld-link"
+      - "D:/Program Files/Cmake/bin/lld-link.com"
+      - "D:/Program Files/Cmake/bin/lld-link.exe"
+      - "D:/Program Files/Cmake/bin/lld-link"
+      - "C:/Users/xenia/AppData/Local/Programs/Python/Python313/Scripts/lld-link.com"
+      - "C:/Users/xenia/AppData/Local/Programs/Python/Python313/Scripts/lld-link.exe"
+      - "C:/Users/xenia/AppData/Local/Programs/Python/Python313/Scripts/lld-link"
+      - "C:/Users/xenia/AppData/Local/Programs/Python/Python313/lld-link.com"
+      - "C:/Users/xenia/AppData/Local/Programs/Python/Python313/lld-link.exe"
+      - "C:/Users/xenia/AppData/Local/Programs/Python/Python313/lld-link"
+      - "C:/Users/xenia/AppData/Local/Programs/Python/Launcher/lld-link.com"
+      - "C:/Users/xenia/AppData/Local/Programs/Python/Launcher/lld-link.exe"
+      - "C:/Users/xenia/AppData/Local/Programs/Python/Launcher/lld-link"
+      - "C:/Users/xenia/.local/bin/lld-link.com"
+      - "C:/Users/xenia/.local/bin/lld-link.exe"
+      - "C:/Users/xenia/.local/bin/lld-link"
+      - "C:/Users/xenia/AppData/Local/Microsoft/WindowsApps/lld-link.com"
+      - "C:/Users/xenia/AppData/Local/Microsoft/WindowsApps/lld-link.exe"
+      - "C:/Users/xenia/AppData/Local/Microsoft/WindowsApps/lld-link"
+      - "C:/Users/xenia/AppData/Local/Programs/Ollama/lld-link.com"
+      - "C:/Users/xenia/AppData/Local/Programs/Ollama/lld-link.exe"
+      - "C:/Users/xenia/AppData/Local/Programs/Ollama/lld-link"
+      - "C:/tools/llvm-mingw/llvm-mingw-20260616-ucrt-x86_64/llvm-mingw-20260616-ucrt-x86_64/bin/lld-link.com"
+      - "C:/tools/llvm-mingw/llvm-mingw-20260616-ucrt-x86_64/llvm-mingw-20260616-ucrt-x86_64/bin/lld-link.exe"
+      - "C:/tools/llvm-mingw/llvm-mingw-20260616-ucrt-x86_64/llvm-mingw-20260616-ucrt-x86_64/bin/lld-link"
+      - "C:/Users/xenia/AppData/Local/SharpSFV/lld-link.com"
+      - "C:/Users/xenia/AppData/Local/SharpSFV/lld-link.exe"
+      - "C:/Users/xenia/AppData/Local/SharpSFV/lld-link"
+      - "D:/VS/product/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/bin/lld-link.com"
+      - "D:/VS/product/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/bin/lld-link.exe"
+      - "D:/VS/product/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/bin/lld-link"
+      - "D:/VS/product/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/lld-link.com"
+      - "D:/VS/product/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/lld-link.exe"
+      - "D:/VS/product/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/lld-link"
+      - "D:/VS/product/Common7/IDE/VC/Linux/bin/ConnectionManagerExe/lld-link.com"
+      - "D:/VS/product/Common7/IDE/VC/Linux/bin/ConnectionManagerExe/lld-link.exe"
+      - "D:/VS/product/Common7/IDE/VC/Linux/bin/ConnectionManagerExe/lld-link"
+      - "D:/VS/product/VC/vcpkg/lld-link.com"
+      - "D:/VS/product/VC/vcpkg/lld-link.exe"
+      - "D:/VS/product/VC/vcpkg/lld-link"
+    found: false
+    search_context:
+      ENV{PATH}:
+        - "D:\\VS\\product\\VC\\Tools\\MSVC\\14.51.36231\\bin\\HostX86\\x64"
+        - "D:\\VS\\product\\VC\\Tools\\MSVC\\14.51.36231\\bin\\HostX86\\x86"
+        - "D:\\VS\\product\\Common7\\IDE\\VC\\VCPackages"
+        - "D:\\VS\\product\\Common7\\IDE\\CommonExtensions\\Microsoft\\TestWindow"
+        - "D:\\VS\\product\\Common7\\IDE\\CommonExtensions\\Microsoft\\TeamFoundation\\Team Explorer"
+        - "D:\\VS\\product\\MSBuild\\Current\\bin\\Roslyn"
+        - "C:\\Program Files (x86)\\Microsoft SDKs\\Windows\\v10.0A\\bin\\NETFX 4.8.1 Tools\\"
+        - "D:\\VS\\product\\Team Tools\\DiagnosticsHub\\Collector"
+        - "D:\\VS\\product\\Common7\\IDE\\Extensions\\Microsoft\\CodeCoverage.Console"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\bin\\10.0.28000.0\\\\x86"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\bin\\\\x86"
+        - "D:\\VS\\product\\\\MSBuild\\Current\\Bin\\amd64"
+        - "C:\\Windows\\Microsoft.NET\\Framework\\v4.0.30319"
+        - "D:\\VS\\product\\Common7\\IDE\\"
+        - "D:\\VS\\product\\Common7\\Tools\\"
+        - "D:\\Program Files\\Vvulkan\\Bin"
+        - "C:\\Program Files\\Common Files\\Oracle\\Java\\javapath"
+        - "C:\\Windows\\system32"
+        - "C:\\Windows"
+        - "C:\\Windows\\System32\\Wbem"
+        - "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\Windows\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\"
+        - "C:\\Program Files\\PuTTY\\"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Program Files\\Cloudflare\\Cloudflare WARP\\"
+        - "D:\\Program Files\\Cmake\\bin"
+        - "C:\\Users\\xenia\\AppData\\Local\\Programs\\Python\\Python313\\Scripts\\"
+        - "C:\\Users\\xenia\\AppData\\Local\\Programs\\Python\\Python313\\"
+        - "C:\\Users\\xenia\\AppData\\Local\\Programs\\Python\\Launcher\\"
+        - "C:\\Users\\xenia\\.local\\bin"
+        - "C:\\Users\\xenia\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\xenia\\AppData\\Local\\Programs\\Ollama"
+        - "C:\\tools\\llvm-mingw\\llvm-mingw-20260616-ucrt-x86_64\\llvm-mingw-20260616-ucrt-x86_64\\bin"
+        - "C:\\Users\\xenia\\AppData\\Local\\SharpSFV"
+        - "D:\\VS\\product\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\bin"
+        - "D:\\VS\\product\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\Ninja"
+        - "D:\\VS\\product\\Common7\\IDE\\VC\\Linux\\bin\\ConnectionManagerExe"
+        - "D:\\VS\\product\\VC\\vcpkg"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "D:/Program Files/Cmake/share/cmake-4.4/Modules/CMakeDetermineRCCompiler.cmake:40 (find_program)"
+      - "D:/Program Files/Cmake/share/cmake-4.4/Modules/Platform/Windows-MSVC.cmake:592 (enable_language)"
+      - "D:/Program Files/Cmake/share/cmake-4.4/Modules/Platform/Windows-MSVC.cmake:565 (__windows_compiler_msvc_enable_rc)"
+      - "D:/Program Files/Cmake/share/cmake-4.4/Modules/Platform/Windows-MSVC-C.cmake:5 (__windows_compiler_msvc)"
+      - "D:/Program Files/Cmake/share/cmake-4.4/Modules/CMakeCInformation.cmake:48 (include)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "CMAKE_RC_COMPILER"
+    description: "RC compiler"
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "rc"
+    candidate_directories:
+      - "D:/VS/product/VC/Tools/MSVC/14.51.36231/bin/Hostx86/x64/"
+      - "D:/VS/product/VC/Tools/MSVC/14.51.36231/bin/Hostx86/x86/"
+      - "D:/VS/product/Common7/IDE/VC/vcpackages/"
+      - "D:/VS/product/Common7/IDE/CommonExtensions/Microsoft/TestWindow/"
+      - "D:/VS/product/Common7/IDE/CommonExtensions/Microsoft/TeamFoundation/Team Explorer/"
+      - "D:/VS/product/MSBuild/Current/Bin/Roslyn/"
+      - "C:/Program Files (x86)/Microsoft SDKs/Windows/v10.0A/bin/NETFX 4.8.1 Tools/"
+      - "D:/VS/product/Team Tools/DiagnosticsHub/Collector/"
+      - "D:/VS/product/Common7/IDE/Extensions/Microsoft/CodeCoverage.Console/"
+      - "C:/Program Files (x86)/Windows Kits/10/bin/10.0.28000.0/x86/"
+      - "C:/Program Files (x86)/Windows Kits/10/bin/x86/"
+      - "D:/VS/product/MSBuild/Current/Bin/amd64/"
+      - "C:/Windows/Microsoft.NET/Framework/v4.0.30319/"
+      - "D:/VS/product/Common7/IDE/"
+      - "D:/VS/product/Common7/Tools/"
+      - "D:/Program Files/Vvulkan/Bin/"
+      - "C:/Program Files/Common Files/Oracle/Java/javapath/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "C:/Program Files/dotnet/"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/"
+      - "C:/Program Files/PuTTY/"
+      - "C:/Program Files/Git/cmd/"
+      - "C:/Program Files/Cloudflare/Cloudflare WARP/"
+      - "D:/Program Files/Cmake/bin/"
+      - "C:/Users/xenia/AppData/Local/Programs/Python/Python313/Scripts/"
+      - "C:/Users/xenia/AppData/Local/Programs/Python/Python313/"
+      - "C:/Users/xenia/AppData/Local/Programs/Python/Launcher/"
+      - "C:/Users/xenia/.local/bin/"
+      - "C:/Users/xenia/AppData/Local/Microsoft/WindowsApps/"
+      - "C:/Users/xenia/AppData/Local/Programs/Ollama/"
+      - "C:/tools/llvm-mingw/llvm-mingw-20260616-ucrt-x86_64/llvm-mingw-20260616-ucrt-x86_64/bin/"
+      - "C:/Users/xenia/AppData/Local/SharpSFV/"
+      - "D:/VS/product/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/bin/"
+      - "D:/VS/product/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/"
+      - "D:/VS/product/Common7/IDE/VC/Linux/bin/ConnectionManagerExe/"
+      - "D:/VS/product/VC/vcpkg/"
+      - "C:/Program Files/bin/"
+      - "C:/Program Files/sbin/"
+      - "C:/Program Files/"
+      - "C:/Program Files (x86)/bin/"
+      - "C:/Program Files (x86)/sbin/"
+      - "C:/Program Files (x86)/"
+      - "D:/Program Files/Cmake/bin/"
+      - "D:/Program Files/Cmake/sbin/"
+      - "D:/Program Files/Cmake/"
+      - "C:/Program Files/ps5emu/bin/"
+      - "C:/Program Files/ps5emu/sbin/"
+      - "C:/Program Files/ps5emu/"
+    searched_directories:
+      - "D:/VS/product/VC/Tools/MSVC/14.51.36231/bin/Hostx86/x64/rc.com"
+      - "D:/VS/product/VC/Tools/MSVC/14.51.36231/bin/Hostx86/x64/rc.exe"
+      - "D:/VS/product/VC/Tools/MSVC/14.51.36231/bin/Hostx86/x64/rc"
+      - "D:/VS/product/VC/Tools/MSVC/14.51.36231/bin/Hostx86/x86/rc.com"
+      - "D:/VS/product/VC/Tools/MSVC/14.51.36231/bin/Hostx86/x86/rc.exe"
+      - "D:/VS/product/VC/Tools/MSVC/14.51.36231/bin/Hostx86/x86/rc"
+      - "D:/VS/product/Common7/IDE/VC/vcpackages/rc.com"
+      - "D:/VS/product/Common7/IDE/VC/vcpackages/rc.exe"
+      - "D:/VS/product/Common7/IDE/VC/vcpackages/rc"
+      - "D:/VS/product/Common7/IDE/CommonExtensions/Microsoft/TestWindow/rc.com"
+      - "D:/VS/product/Common7/IDE/CommonExtensions/Microsoft/TestWindow/rc.exe"
+      - "D:/VS/product/Common7/IDE/CommonExtensions/Microsoft/TestWindow/rc"
+      - "D:/VS/product/Common7/IDE/CommonExtensions/Microsoft/TeamFoundation/Team Explorer/rc.com"
+      - "D:/VS/product/Common7/IDE/CommonExtensions/Microsoft/TeamFoundation/Team Explorer/rc.exe"
+      - "D:/VS/product/Common7/IDE/CommonExtensions/Microsoft/TeamFoundation/Team Explorer/rc"
+      - "D:/VS/product/MSBuild/Current/Bin/Roslyn/rc.com"
+      - "D:/VS/product/MSBuild/Current/Bin/Roslyn/rc.exe"
+      - "D:/VS/product/MSBuild/Current/Bin/Roslyn/rc"
+      - "C:/Program Files (x86)/Microsoft SDKs/Windows/v10.0A/bin/NETFX 4.8.1 Tools/rc.com"
+      - "C:/Program Files (x86)/Microsoft SDKs/Windows/v10.0A/bin/NETFX 4.8.1 Tools/rc.exe"
+      - "C:/Program Files (x86)/Microsoft SDKs/Windows/v10.0A/bin/NETFX 4.8.1 Tools/rc"
+      - "D:/VS/product/Team Tools/DiagnosticsHub/Collector/rc.com"
+      - "D:/VS/product/Team Tools/DiagnosticsHub/Collector/rc.exe"
+      - "D:/VS/product/Team Tools/DiagnosticsHub/Collector/rc"
+      - "D:/VS/product/Common7/IDE/Extensions/Microsoft/CodeCoverage.Console/rc.com"
+      - "D:/VS/product/Common7/IDE/Extensions/Microsoft/CodeCoverage.Console/rc.exe"
+      - "D:/VS/product/Common7/IDE/Extensions/Microsoft/CodeCoverage.Console/rc"
+      - "C:/Program Files (x86)/Windows Kits/10/bin/10.0.28000.0/x86/rc.com"
+    found: "C:/Program Files (x86)/Windows Kits/10/bin/10.0.28000.0/x86/rc.exe"
+    search_context:
+      ENV{PATH}:
+        - "D:\\VS\\product\\VC\\Tools\\MSVC\\14.51.36231\\bin\\HostX86\\x64"
+        - "D:\\VS\\product\\VC\\Tools\\MSVC\\14.51.36231\\bin\\HostX86\\x86"
+        - "D:\\VS\\product\\Common7\\IDE\\VC\\VCPackages"
+        - "D:\\VS\\product\\Common7\\IDE\\CommonExtensions\\Microsoft\\TestWindow"
+        - "D:\\VS\\product\\Common7\\IDE\\CommonExtensions\\Microsoft\\TeamFoundation\\Team Explorer"
+        - "D:\\VS\\product\\MSBuild\\Current\\bin\\Roslyn"
+        - "C:\\Program Files (x86)\\Microsoft SDKs\\Windows\\v10.0A\\bin\\NETFX 4.8.1 Tools\\"
+        - "D:\\VS\\product\\Team Tools\\DiagnosticsHub\\Collector"
+        - "D:\\VS\\product\\Common7\\IDE\\Extensions\\Microsoft\\CodeCoverage.Console"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\bin\\10.0.28000.0\\\\x86"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\bin\\\\x86"
+        - "D:\\VS\\product\\\\MSBuild\\Current\\Bin\\amd64"
+        - "C:\\Windows\\Microsoft.NET\\Framework\\v4.0.30319"
+        - "D:\\VS\\product\\Common7\\IDE\\"
+        - "D:\\VS\\product\\Common7\\Tools\\"
+        - "D:\\Program Files\\Vvulkan\\Bin"
+        - "C:\\Program Files\\Common Files\\Oracle\\Java\\javapath"
+        - "C:\\Windows\\system32"
+        - "C:\\Windows"
+        - "C:\\Windows\\System32\\Wbem"
+        - "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\Windows\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\"
+        - "C:\\Program Files\\PuTTY\\"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Program Files\\Cloudflare\\Cloudflare WARP\\"
+        - "D:\\Program Files\\Cmake\\bin"
+        - "C:\\Users\\xenia\\AppData\\Local\\Programs\\Python\\Python313\\Scripts\\"
+        - "C:\\Users\\xenia\\AppData\\Local\\Programs\\Python\\Python313\\"
+        - "C:\\Users\\xenia\\AppData\\Local\\Programs\\Python\\Launcher\\"
+        - "C:\\Users\\xenia\\.local\\bin"
+        - "C:\\Users\\xenia\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\xenia\\AppData\\Local\\Programs\\Ollama"
+        - "C:\\tools\\llvm-mingw\\llvm-mingw-20260616-ucrt-x86_64\\llvm-mingw-20260616-ucrt-x86_64\\bin"
+        - "C:\\Users\\xenia\\AppData\\Local\\SharpSFV"
+        - "D:\\VS\\product\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\bin"
+        - "D:\\VS\\product\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\Ninja"
+        - "D:\\VS\\product\\Common7\\IDE\\VC\\Linux\\bin\\ConnectionManagerExe"
+        - "D:\\VS\\product\\VC\\vcpkg"
+      CMAKE_INSTALL_PREFIX: "C:/Program Files/ps5emu"
+      CMAKE_SYSTEM_PREFIX_PATH:
+        - "C:/Program Files"
+        - "C:/Program Files (x86)"
+        - "D:/Program Files/Cmake"
+        - "C:/Program Files/ps5emu"
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "D:/Program Files/Cmake/share/cmake-4.4/Modules/CMakeDetermineCompilerABI.cmake:123 (try_compile)"
+      - "D:/Program Files/Cmake/share/cmake-4.4/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    checks:
+      - "Detecting C compiler ABI info"
+    directories:
+      source: "D:/ps5emu_poc/build/x64/CMakeFiles/CMakeScratch/TryCompile-k2n0cr"
+      binary: "D:/ps5emu_poc/build/x64/CMakeFiles/CMakeScratch/TryCompile-k2n0cr"
+    cmakeVariables:
+      CMAKE_CXX_STDLIB_MODULES_JSON: ""
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS"
+      CMAKE_C_FLAGS_DEBUG: "/Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+    buildResult:
+      variable: "CMAKE_C_ABI_COMPILED"
+      cached: false
+      stdout: |
+        Change Dir: 'D:/ps5emu_poc/build/x64/CMakeFiles/CMakeScratch/TryCompile-k2n0cr'
+        
+        Run Build Command(s): D:/VS/product/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_af8dd.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=18.0 /v:n
+        MSBuild version 18.10.1-1.26427.6+3cd27c13e for .NET Framework
+        Build started 10/10/2026 12:52:10 AM.
+        
+        Project "D:\\ps5emu_poc\\build\\x64\\CMakeFiles\\CMakeScratch\\TryCompile-k2n0cr\\cmTC_af8dd.vcxproj" on node 1 (default targets).
+        PrepareForBuild:
+          Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
+          Creating directory "D:\\ps5emu_poc\\build\\x64\\CMakeFiles\\CMakeScratch\\TryCompile-k2n0cr\\Debug\\".
+          Creating directory "cmTC_af8dd.dir\\Debug\\cmTC_af8dd.tlog\\".
+        InitializeBuildStatus:
+          Creating "cmTC_af8dd.dir\\Debug\\cmTC_af8dd.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+          Touching "cmTC_af8dd.dir\\Debug\\cmTC_af8dd.tlog\\unsuccessfulbuild".
+        ClCompile:
+          D:\\VS\\product\\VC\\Tools\\MSVC\\14.51.36231\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /Fo"cmTC_af8dd.dir\\Debug\\\\" /Fd"cmTC_af8dd.dir\\Debug\\vc145.pdb" /external:W1 /TC /errorReport:queue "D:\\Program Files\\Cmake\\share\\cmake-4.4\\Modules\\CMakeCCompilerABI.c"
+          Microsoft (R) C/C++ Optimizing Compiler Version 19.51.36260 for x64
+          Copyright (C) Microsoft Corporation.  All rights reserved.
+          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /Fo"cmTC_af8dd.dir\\Debug\\\\" /Fd"cmTC_af8dd.dir\\Debug\\vc145.pdb" /external:W1 /TC /errorReport:queue "D:\\Program Files\\Cmake\\share\\cmake-4.4\\Modules\\CMakeCCompilerABI.c"
+          CMakeCCompilerABI.c
+        Link:
+          D:\\VS\\product\\VC\\Tools\\MSVC\\14.51.36231\\bin\\HostX64\\x64\\link.exe /OUT:"D:\\ps5emu_poc\\build\\x64\\CMakeFiles\\CMakeScratch\\TryCompile-k2n0cr\\Debug\\cmTC_af8dd.exe" /INCREMENTAL /ILK:"cmTC_af8dd.dir\\Debug\\cmTC_af8dd.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:/ps5emu_poc/build/x64/CMakeFiles/CMakeScratch/TryCompile-k2n0cr/Debug/cmTC_af8dd.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /IMPLIB:"D:/ps5emu_poc/build/x64/CMakeFiles/CMakeScratch/TryCompile-k2n0cr/Debug/cmTC_af8dd.lib" /MACHINE:X64  /machine:x64 cmTC_af8dd.dir\\Debug\\CMakeCCompilerABI.obj
+          cmTC_af8dd.vcxproj -> D:\\ps5emu_poc\\build\\x64\\CMakeFiles\\CMakeScratch\\TryCompile-k2n0cr\\Debug\\cmTC_af8dd.exe
+        FinalizeBuildStatus:
+          Deleting file "cmTC_af8dd.dir\\Debug\\cmTC_af8dd.tlog\\unsuccessfulbuild".
+          Touching "cmTC_af8dd.dir\\Debug\\cmTC_af8dd.tlog\\cmTC_af8dd.lastbuildstate".
+        Done Building Project "D:\\ps5emu_poc\\build\\x64\\CMakeFiles\\CMakeScratch\\TryCompile-k2n0cr\\cmTC_af8dd.vcxproj" (default targets).
+        
+        Build succeeded.
+            0 Warning(s)
+            0 Error(s)
+        
+        Time Elapsed 00:00:00.46
+        
+      exitCode: 0
+  -
+    kind: "message-v1"
+    backtrace:
+      - "D:/Program Files/Cmake/share/cmake-4.4/Modules/CMakeDetermineCompilerABI.cmake:291 (message)"
+      - "D:/Program Files/Cmake/share/cmake-4.4/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Parsed C implicit link information:
+        link line regex: [^( *|.*[/\\])(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)|link\\.exe|lld-link(\\.exe)?|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
+        linker tool regex: [^[ 	]*(->|"|[0-9]+>[ 	-]*Build:[ 	0-9]+ ms[ 	]*)?[ 	]*(([^"]*[/\\])?(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)|link\\.exe|lld-link(\\.exe)?))("|,| |$)]
+        link line: [  D:\\VS\\product\\VC\\Tools\\MSVC\\14.51.36231\\bin\\HostX64\\x64\\link.exe /OUT:"D:\\ps5emu_poc\\build\\x64\\CMakeFiles\\CMakeScratch\\TryCompile-k2n0cr\\Debug\\cmTC_af8dd.exe" /INCREMENTAL /ILK:"cmTC_af8dd.dir\\Debug\\cmTC_af8dd.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:/ps5emu_poc/build/x64/CMakeFiles/CMakeScratch/TryCompile-k2n0cr/Debug/cmTC_af8dd.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /IMPLIB:"D:/ps5emu_poc/build/x64/CMakeFiles/CMakeScratch/TryCompile-k2n0cr/Debug/cmTC_af8dd.lib" /MACHINE:X64  /machine:x64 cmTC_af8dd.dir\\Debug\\CMakeCCompilerABI.obj] ==> linker [D:\\VS\\product\\VC\\Tools\\MSVC\\14.51.36231\\bin\\HostX64\\x64\\link.exe]
+        linker tool for 'C': D:/VS/product/VC/Tools/MSVC/14.51.36231/bin/HostX64/x64/link.exe 
+        implicit libs: []
+        implicit objs: []
+        implicit dirs: []
+        implicit fwks: []
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "D:/Program Files/Cmake/share/cmake-4.4/Modules/Internal/CMakeDetermineLinkerId.cmake:41 (message)"
+      - "D:/Program Files/Cmake/share/cmake-4.4/Modules/CMakeDetermineCompilerABI.cmake:337 (cmake_determine_linker_id)"
+      - "D:/Program Files/Cmake/share/cmake-4.4/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Running the C compiler's linker: "D:/VS/product/VC/Tools/MSVC/14.51.36231/bin/HostX64/x64/link.exe" "-v"
+      Microsoft (R) Incremental Linker Version 14.51.36260.0
+      Copyright (C) Microsoft Corporation.  All rights reserved.
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "D:/Program Files/Cmake/share/cmake-4.4/Modules/CMakeDetermineCompilerABI.cmake:123 (try_compile)"
+      - "D:/Program Files/Cmake/share/cmake-4.4/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    checks:
+      - "Detecting CXX compiler ABI info"
+    directories:
+      source: "D:/ps5emu_poc/build/x64/CMakeFiles/CMakeScratch/TryCompile-alsnj1"
+      binary: "D:/ps5emu_poc/build/x64/CMakeFiles/CMakeScratch/TryCompile-alsnj1"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /EHsc"
+      CMAKE_CXX_FLAGS_DEBUG: "/Zi /Ob0 /Od /RTC1"
+      CMAKE_CXX_SCAN_FOR_MODULES: "OFF"
+      CMAKE_CXX_STDLIB_MODULES_JSON: ""
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+    buildResult:
+      variable: "CMAKE_CXX_ABI_COMPILED"
+      cached: false
+      stdout: |
+        Change Dir: 'D:/ps5emu_poc/build/x64/CMakeFiles/CMakeScratch/TryCompile-alsnj1'
+        
+        Run Build Command(s): D:/VS/product/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_f6d9c.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=18.0 /v:n
+        MSBuild version 18.10.1-1.26427.6+3cd27c13e for .NET Framework
+        Build started 10/10/2026 12:52:11 AM.
+        
+        Project "D:\\ps5emu_poc\\build\\x64\\CMakeFiles\\CMakeScratch\\TryCompile-alsnj1\\cmTC_f6d9c.vcxproj" on node 1 (default targets).
+        PrepareForBuild:
+          Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
+          Creating directory "D:\\ps5emu_poc\\build\\x64\\CMakeFiles\\CMakeScratch\\TryCompile-alsnj1\\Debug\\".
+          Creating directory "cmTC_f6d9c.dir\\Debug\\cmTC_f6d9c.tlog\\".
+        InitializeBuildStatus:
+          Creating "cmTC_f6d9c.dir\\Debug\\cmTC_f6d9c.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+          Touching "cmTC_f6d9c.dir\\Debug\\cmTC_f6d9c.tlog\\unsuccessfulbuild".
+        ClCompile:
+          D:\\VS\\product\\VC\\Tools\\MSVC\\14.51.36231\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /Fo"cmTC_f6d9c.dir\\Debug\\\\" /Fd"cmTC_f6d9c.dir\\Debug\\vc145.pdb" /external:W1 /TP /errorReport:queue "D:\\Program Files\\Cmake\\share\\cmake-4.4\\Modules\\CMakeCXXCompilerABI.cpp"
+          Microsoft (R) C/C++ Optimizing Compiler Version 19.51.36260 for x64
+          Copyright (C) Microsoft Corporation.  All rights reserved.
+          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /Fo"cmTC_f6d9c.dir\\Debug\\\\" /Fd"cmTC_f6d9c.dir\\Debug\\vc145.pdb" /external:W1 /TP /errorReport:queue "D:\\Program Files\\Cmake\\share\\cmake-4.4\\Modules\\CMakeCXXCompilerABI.cpp"
+          CMakeCXXCompilerABI.cpp
+        Link:
+          D:\\VS\\product\\VC\\Tools\\MSVC\\14.51.36231\\bin\\HostX64\\x64\\link.exe /OUT:"D:\\ps5emu_poc\\build\\x64\\CMakeFiles\\CMakeScratch\\TryCompile-alsnj1\\Debug\\cmTC_f6d9c.exe" /INCREMENTAL /ILK:"cmTC_f6d9c.dir\\Debug\\cmTC_f6d9c.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:/ps5emu_poc/build/x64/CMakeFiles/CMakeScratch/TryCompile-alsnj1/Debug/cmTC_f6d9c.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /IMPLIB:"D:/ps5emu_poc/build/x64/CMakeFiles/CMakeScratch/TryCompile-alsnj1/Debug/cmTC_f6d9c.lib" /MACHINE:X64  /machine:x64 cmTC_f6d9c.dir\\Debug\\CMakeCXXCompilerABI.obj
+          cmTC_f6d9c.vcxproj -> D:\\ps5emu_poc\\build\\x64\\CMakeFiles\\CMakeScratch\\TryCompile-alsnj1\\Debug\\cmTC_f6d9c.exe
+        FinalizeBuildStatus:
+          Deleting file "cmTC_f6d9c.dir\\Debug\\cmTC_f6d9c.tlog\\unsuccessfulbuild".
+          Touching "cmTC_f6d9c.dir\\Debug\\cmTC_f6d9c.tlog\\cmTC_f6d9c.lastbuildstate".
+        Done Building Project "D:\\ps5emu_poc\\build\\x64\\CMakeFiles\\CMakeScratch\\TryCompile-alsnj1\\cmTC_f6d9c.vcxproj" (default targets).
+        
+        Build succeeded.
+            0 Warning(s)
+            0 Error(s)
+        
+        Time Elapsed 00:00:00.49
+        
+      exitCode: 0
+  -
+    kind: "message-v1"
+    backtrace:
+      - "D:/Program Files/Cmake/share/cmake-4.4/Modules/CMakeDetermineCompilerABI.cmake:291 (message)"
+      - "D:/Program Files/Cmake/share/cmake-4.4/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Parsed CXX implicit link information:
+        link line regex: [^( *|.*[/\\])(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)|link\\.exe|lld-link(\\.exe)?|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
+        linker tool regex: [^[ 	]*(->|"|[0-9]+>[ 	-]*Build:[ 	0-9]+ ms[ 	]*)?[ 	]*(([^"]*[/\\])?(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)|link\\.exe|lld-link(\\.exe)?))("|,| |$)]
+        link line: [  D:\\VS\\product\\VC\\Tools\\MSVC\\14.51.36231\\bin\\HostX64\\x64\\link.exe /OUT:"D:\\ps5emu_poc\\build\\x64\\CMakeFiles\\CMakeScratch\\TryCompile-alsnj1\\Debug\\cmTC_f6d9c.exe" /INCREMENTAL /ILK:"cmTC_f6d9c.dir\\Debug\\cmTC_f6d9c.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:/ps5emu_poc/build/x64/CMakeFiles/CMakeScratch/TryCompile-alsnj1/Debug/cmTC_f6d9c.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /IMPLIB:"D:/ps5emu_poc/build/x64/CMakeFiles/CMakeScratch/TryCompile-alsnj1/Debug/cmTC_f6d9c.lib" /MACHINE:X64  /machine:x64 cmTC_f6d9c.dir\\Debug\\CMakeCXXCompilerABI.obj] ==> linker [D:\\VS\\product\\VC\\Tools\\MSVC\\14.51.36231\\bin\\HostX64\\x64\\link.exe]
+        linker tool for 'CXX': D:/VS/product/VC/Tools/MSVC/14.51.36231/bin/HostX64/x64/link.exe 
+        implicit libs: []
+        implicit objs: []
+        implicit dirs: []
+        implicit fwks: []
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "D:/Program Files/Cmake/share/cmake-4.4/Modules/Internal/CMakeDetermineLinkerId.cmake:41 (message)"
+      - "D:/Program Files/Cmake/share/cmake-4.4/Modules/CMakeDetermineCompilerABI.cmake:337 (cmake_determine_linker_id)"
+      - "D:/Program Files/Cmake/share/cmake-4.4/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Running the CXX compiler's linker: "D:/VS/product/VC/Tools/MSVC/14.51.36231/bin/HostX64/x64/link.exe" "-v"
+      Microsoft (R) Incremental Linker Version 14.51.36260.0
+      Copyright (C) Microsoft Corporation.  All rights reserved.
+...

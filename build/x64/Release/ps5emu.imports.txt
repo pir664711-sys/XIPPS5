@@ -1,0 +1,601 @@
+# NID	lib	module	status	name (blank = name unknown; add names to nids.txt, see tools/nid.py)
+P330P3dFF68	j	j	UNRESOLVED	
+QI-x0SL8jhw	j	j	UNRESOLVED	
+EH-x713A99c	j	j	HLE	atan2f
+gQX+4GDQjpM	j	j	HLE	malloc
+Y7aJ1uydPMo	j	j	HLE	realloc
+tIhsqj0qsFE	j	j	HLE	free
+lKEN2IebgJ0	j	j	UNRESOLVED	longjmp
+zr094EQ39Ww	j	j	HLE	__cxa_pure_virtual
+ZE6RNL+eLbk	j	j	HLE	tanf
+weDug8QD-lE	j	j	UNRESOLVED	
+GZWjF-YIFFk	j	j	UNRESOLVED	
+H8AprKeZtNg	j	j	UNRESOLVED	
+c+4r-T-tEIc	j	j	UNRESOLVED	
+2sWzhYqFH4E	j	j	UNRESOLVED	
+8zTFvBIAIN8	j	j	HLE	memset
+f7uOxY9mM1U	k	N	HLE-data	__stack_chk_guard
+bzQExy189ZI	j	j	HLE	_init_env
+8G2LB+A3rzg	j	j	HLE	atexit
+XKRegsFpEpk	j	j	UNRESOLVED	
+uMei1W9uyNo	j	j	HLE	exit
+Q3VBxCXhUHs	j	j	HLE	memcpy
+Ou3iL1abvng	k	N	HLE	__stack_chk_fail
+MpxhMh8QFro	j	j	UNRESOLVED	fwrite
+MUjC4lbHrK4	j	j	UNRESOLVED	fflush
+j4ViWNHEgww	j	j	HLE	strlen
+DfivPArhucg	j	j	HLE	memcmp
+gNQ1V2vfXDE	j	j	UNRESOLVED	setjmp
+9LCjpWyQ5Zc	j	j	HLE	pow
+L1SBTkC+Cvw	j	j	HLE	abort
+lbB+UlZqVG0	j	j	UNRESOLVED	fread
+fffwELXNVFA	j	j	UNRESOLVED	fprintf
+eLdDw6l0-bU	j	j	HLE	snprintf
+5OqszGpy7Mg	j	j	UNRESOLVED	strtoull
+zlfEH8FmyUA	j	j	UNRESOLVED	
+Ovb2dSJOAuE	j	j	HLE	strcmp
+sUP1hBaouOw	j	j	UNRESOLVED	_Getpctype
+2vDqwBlpF-o	j	j	UNRESOLVED	strtod
+tcVi5SivF7Q	j	j	HLE	sprintf
+-P6FNMzk2Kc	j	j	HLE	cosf
+pztV4AF18iI	j	j	UNRESOLVED	
+Q2V+iqvjgC0	j	j	HLE	vsnprintf
+Q4rRL34CEeE	j	j	HLE	sinf
+AV6ipCNa4Rw	j	j	UNRESOLVED	
+dQHWEsJtoE4	N	N	HLE	
+mDmgMOGVUqg	N	N	HLE	
+5txKfcMUAok	N	N	UNRESOLVED	
+ttHNfU+qDBU	N	N	HLE	pthread_mutex_init
+HF7lK46xzjY	N	N	HLE	
+ltCfaGr2JGE	N	N	HLE	pthread_mutex_destroy
+7H0iTOciTLo	N	N	HLE	pthread_mutex_lock
+2Z+PpY6CaJg	N	N	HLE	pthread_mutex_unlock
+iWQWrwiSt8A	E	F	UNRESOLVED	
+TU-d9PfIHPM	N	N	UNRESOLVED	
+XVL8So3QJUk	N	N	UNRESOLVED	
+9BcDykPmo1I	k	N	UNRESOLVED	
+T8fER+tIGgk	N	N	UNRESOLVED	
+Ez8xjo9UF4E	N	N	UNRESOLVED	
+bY-PO6JhzhQ	N	N	UNRESOLVED	
+TUuiYS2kE8s	N	N	UNRESOLVED	
+fZOeZIOEmLw	N	N	UNRESOLVED	
++P6FRGH4LfA	j	j	HLE	memmove
+0TyVk4MSLt0	N	N	HLE	pthread_cond_init
+RXXqi4CtF8w	N	N	UNRESOLVED	
+mkx2fVhNMsg	N	N	HLE	pthread_cond_broadcast
+n88vx3C5nW8	N	N	HLE	gettimeofday
+27bAgiJmOh0	N	N	UNRESOLVED	
+Op8TBGY5KHg	N	N	HLE	pthread_cond_wait
+lLMT9vJAck0	N	N	HLE	clock_gettime
+EotR8a3ASf4	N	N	HLE	pthread_self
+6XG4B33N09g	N	N	UNRESOLVED	
+mqULNdimTn0	N	N	HLE	pthread_key_create
+6BpEZuDT7YI	N	N	UNRESOLVED	
+0-KXaS70xy4	N	N	HLE	pthread_getspecific
+WrOLvHU0yQM	N	N	HLE	pthread_setspecific
+8Kcp5d-q1Uo	E	F	UNRESOLVED	
+dgJBaeJnGpo	E	F	UNRESOLVED	sceNetPoolCreate
+C4UgDHHPvdw	E	F	UNRESOLVED	
+Nd91WaWmG2w	E	F	UNRESOLVED	
+kJlYH5uMAWI	E	F	UNRESOLVED	
+K7RlrTkI-mw	E	F	UNRESOLVED	
+2mKX2Spso7I	E	F	UNRESOLVED	
+xeYO4u7uyJ0	j	j	UNRESOLVED	fopen
+rQFVBXp-Cxg	j	j	UNRESOLVED	fseek
+Qazy8LmXTvw	j	j	UNRESOLVED	ftell
+uodLYyUip20	j	j	UNRESOLVED	fclose
+8zsu04XNsZ4	j	j	HLE	expf
+RQXLbdT2lc4	j	j	HLE	logf
+fgxnMeTNUtY	k	N	HLE	sceKernelGetProcessTimeCounter
+3GPpjQdAMTw	j	j	HLE	__cxa_guard_acquire
+BNowx2l588E	k	N	HLE	sceKernelGetProcessTimeCounterFrequency
+9rAeANT2tyE	j	j	HLE	__cxa_guard_release
+8u8lPzUEq+U	j	j	HLE	memchr
+1D0H2KNjshE	j	j	HLE	powf
+Q8pvJimUWis	j	j	UNRESOLVED	
+Ujf3KzMvRmI	j	j	HLE	memalign
+7Xl257M4VNI	N	N	UNRESOLVED	
+OxhIB8LB-PQ	N	N	HLE	pthread_create
+h9CcP3J0oVM	N	N	HLE	pthread_join
+2MOy+rUfuhQ	N	N	HLE	pthread_cond_signal
+GBUY7ywdULE	k	N	HLE	scePthreadRename
+bt3CTBKmGyI	k	N	HLE	scePthreadSetaffinity
+5Xa2ACNECdo	j	j	UNRESOLVED	
+tsvEmnenz48	j	j	HLE	__cxa_atexit
+hcuQgD53UxM	j	j	HLE	printf
+baQO9ez2gL4	l	k	UNRESOLVED	
+N-FSPA4S3nI	l	k	UNRESOLVED	
+8aI7R7WaOlc	l	k	UNRESOLVED	
+a8uLzYY--tM	l	k	UNRESOLVED	
+mQ16-QdKv7k	l	k	UNRESOLVED	
+gEpBkcwxUjw	k	N	UNRESOLVED	
+ASoW5WE-UPo	k	N	UNRESOLVED	
+rqwFKI4PAiM	k	N	UNRESOLVED	
+2JtWUUiYBXs	e	e	UNRESOLVED	sceAgcGetRegisterDefaults2
+vSMAm3cxYTY	k	N	UNRESOLVED	sceKernelMprotect
+23LRUSvYu1M	e	e	UNRESOLVED	
+1jfXLRVzisc	k	N	HLE	sceKernelUsleep
+wRbq6ZjNop4	e	e	UNRESOLVED	
+UglJIZjGssM	d	d	UNRESOLVED	sceAgcDriverSubmitDcb
+AhGvpITrf4M	d	d	UNRESOLVED	
+gSRnr79F8tQ	d	d	UNRESOLVED	
+w2rJhmD+dsE	d	d	UNRESOLVED	sceAgcDriverAddEqEvent
+Zw7uUVPulbw	d	d	UNRESOLVED	sceAgcDriverGetEqContextId
+h9z6+0hEydk	e	e	UNRESOLVED	
+X-Nm5KLREeg	d	d	UNRESOLVED	sceAgcDriverRegisterOwner
+W5z4eZrjEas	d	d	UNRESOLVED	sceAgcDriverRegisterResource
+XlNp7jzGiPo	d	d	UNRESOLVED	
+MM4IZSEYytQ	d	d	UNRESOLVED	
+T6xuVw0KUJo	e	e	UNRESOLVED	
+f3dg2CSgRKY	e	e	UNRESOLVED	
+dolOmWH+huQ	e	e	UNRESOLVED	
+fd5Bp5tGTgo	e	e	UNRESOLVED	
+HV4j+E0MBHE	e	e	UNRESOLVED	
+D9sr1xGUriE	e	e	UNRESOLVED	
+k3GhuSNmBLU	e	e	UNRESOLVED	
+wr23dPKyWc0	e	e	UNRESOLVED	
+LtTouSCZjHM	e	e	UNRESOLVED	sceAgcCbNop
+n2fD4A+pb+g	e	e	UNRESOLVED	
+UZbQjYAwwXM	e	e	UNRESOLVED	
+03RZmELWWzw	e	e	UNRESOLVED	
+KT-hTp-Ch14	e	e	UNRESOLVED	
+qzMN2XKGA4k	e	e	UNRESOLVED	
+j3EtxFkSIhQ	e	e	UNRESOLVED	
+-RnpfpxIhec	e	e	UNRESOLVED	
+cFazmnXpJOE	e	e	UNRESOLVED	
+e1DFTg+Sd8U	e	e	UNRESOLVED	sceAgcAcbJump
+eZ4+17OQz4Q	e	e	UNRESOLVED	
+htn36gPnBk4	e	e	UNRESOLVED	
+GPbUp9jXQa8	e	e	UNRESOLVED	
+JrtiDtKeS38	e	e	UNRESOLVED	
+cpCILPya5Zk	e	e	UNRESOLVED	
+6mFxkVqdmbQ	e	e	UNRESOLVED	
+57labkp+rSQ	e	e	UNRESOLVED	
+xSAR0LTcRKM	e	e	UNRESOLVED	sceAgcDcbJump
+1rZSWUv1IRc	e	e	UNRESOLVED	
+WmAc2MEj6Io	e	e	UNRESOLVED	
+i1jyy49AjXU	e	e	UNRESOLVED	
+-HOOCn0JY48	e	e	UNRESOLVED	
+ZvwO9euwYzc	e	e	UNRESOLVED	
+hvUfkUIQcOE	e	e	UNRESOLVED	
+CtB+A9-VxO0	e	e	UNRESOLVED	
+Yw0jKSqop+E	e	e	UNRESOLVED	
+q88lQ+GP5Yk	e	e	UNRESOLVED	
+1q1titRBL6o	e	e	UNRESOLVED	
+t1vNu082-jM	e	e	UNRESOLVED	
+aJf+j5yntiU	e	e	UNRESOLVED	
+RmaJwLtc8rY	e	e	UNRESOLVED	
+GIIW2J37e70	e	e	UNRESOLVED	
+l4fM9K-Lyks	e	e	UNRESOLVED	
+8N2tmT3jmC8	e	e	UNRESOLVED	
+tSBxhAPyytQ	e	e	UNRESOLVED	
+u2T2DiA5hRI	e	e	UNRESOLVED	
+VmW0Tdpy420	e	e	UNRESOLVED	
+TRO721eVt4g	e	e	UNRESOLVED	
+MWiElSNE8j8	e	e	UNRESOLVED	
++kSrjIVxKFE	e	e	UNRESOLVED	
+H7uZqCoNuWk	e	e	UNRESOLVED	
+YUeqkyT7mEQ	e	e	UNRESOLVED	sceAgcDcbSetFlip
+Ikfdt-rIqCE	e	e	UNRESOLVED	
+Qrj4c+61z4A	e	e	UNRESOLVED	
+z2duB-hHQSM	e	e	UNRESOLVED	
+vcmNN+AAXnY	e	e	UNRESOLVED	
+d-6uF9sZDIU	e	e	UNRESOLVED	
+6lNcCp+fxi4	e	e	UNRESOLVED	
+vRoArM9zaIk	e	e	UNRESOLVED	
+K2mciNVxUCE	e	e	UNRESOLVED	
+V++UgBtQhn0	e	e	UNRESOLVED	
+IxYiarKlXxM	e	e	UNRESOLVED	
+3KDcnM3lrcU	e	e	UNRESOLVED	
+0fWWK5uG9rQ	e	e	UNRESOLVED	
+hsi9drzHR2k	j	j	UNRESOLVED	
+wuAQt-j+p4o	j	j	UNRESOLVED	
+PjS5uASwcV8	G	H	UNRESOLVED	sceVideoOutSetBufferAttribute2
+pDBDcY6uLSA	j	j	UNRESOLVED	vfprintf
+rtV7-jWC6Yg	j	j	HLE	log
+dnaeGXbjP6E	j	j	UNRESOLVED	
+wzvqT4UqKX8	k	N	UNRESOLVED	sceKernelLoadStartModule
+tQIo+GIPklo	j	j	UNRESOLVED	
+LwG8g3niqwA	k	N	UNRESOLVED	sceKernelDlsym
+QKd0qM58Qes	k	N	UNRESOLVED	sceKernelStopUnloadModule
+Zxa0VhQVTsk	k	N	HLE	sceKernelWaitSema
+4czppHBiriw	k	N	HLE	sceKernelSignalSema
+188x57JYp0g	k	N	HLE	sceKernelCreateSema
+T72hz6ffq08	k	N	HLE	scePthreadYield
+12wOHk8ywb0	k	N	HLE	sceKernelPollSema
++r3rMFwItV4	k	N	UNRESOLVED	
+nKWi-N2HBV4	k	N	UNRESOLVED	
+fTx66l5iWIA	k	N	UNRESOLVED	
+VW3TVZiM4-E	k	N	UNRESOLVED	
+kBwCPsYX-m4	k	N	UNRESOLVED	sceKernelFstat
+UK2Tl2DWUns	k	N	UNRESOLVED	sceKernelClose
+OGybVuPAhAY	j	j	UNRESOLVED	reallocalign
+-kU6bB4M-+k	j	j	UNRESOLVED	
+kiZSXIWd9vg	j	j	HLE	strcpy
+45ggEzakPJQ	E	F	UNRESOLVED	
+R1Jvn8bSCW8	k	N	HLE	sceKernelDeleteSema
+xphrZusl78E	E	F	UNRESOLVED	
+OXXX4mUk3uk	E	F	UNRESOLVED	
+HQOwnfMGipQ	E	F	UNRESOLVED	
+kOj1HiAGE54	E	F	UNRESOLVED	
+PIWqhn9oSxc	E	F	UNRESOLVED	
+beRjXBn-z+o	E	F	UNRESOLVED	
+9wO9XrMsNhc	E	F	UNRESOLVED	
+aI+OeCz8xrQ	k	N	HLE	scePthreadSelf
+geDaqgH9lTg	k	N	HLE	scePthreadKeyCreate
+PrdHuuDekhY	k	N	UNRESOLVED	
++BzXYkqYeLE	k	N	HLE	scePthreadSetspecific
+eoht7mQOCmo	k	N	HLE	scePthreadGetspecific
+Cj+Fw5q1tUo	j	j	UNRESOLVED	
+jfRI3snge3o	j	j	UNRESOLVED	
+9UK1vLZQft4	k	N	HLE	scePthreadMutexLock
+tn3VlD0hG60	k	N	HLE	scePthreadMutexUnlock
+Gl6w5i0JokY	X	X	UNRESOLVED	
+g8cM39EUZ6o	D	E	UNRESOLVED	sceSysmoduleLoadModule
+jqb7HntFQFc	Y	Y	UNRESOLVED	
+FraP7debcdg	Y	Y	UNRESOLVED	
+h1dR-t5ISgg	Y	Y	UNRESOLVED	
+ocHtyBwHfys	Y	Y	UNRESOLVED	
+eR2bZFAAU0Q	D	E	UNRESOLVED	sceSysmoduleUnloadModule
+fZo48un7LK4	P	P	UNRESOLVED	sceSystemServiceParamGetInt
+JBcgYuW8lPU	j	j	UNRESOLVED	
+eT2UsmTewbU	j	j	UNRESOLVED	
+ozMAr28BwSY	j	j	UNRESOLVED	
+2Of0f+3mhhE	k	N	HLE	scePthreadMutexDestroy
+g7zzzLDYGw0	j	j	UNRESOLVED	strdup
+Xjoosiw+XPI	k	N	UNRESOLVED	
+SsC-m-S9JTA	P	P	UNRESOLVED	
+lA94ZgT+vMM	j	j	UNRESOLVED	
+fMP5NHUOaMk	D	E	UNRESOLVED	sceSysmoduleIsLoaded
+VUzjXknPPBs	j	j	UNRESOLVED	mbstowcs
+oBmw4xrmfKs	M	M	UNRESOLVED	
+1Pk0qZQGeWo	j	j	UNRESOLVED	sscanf
+3+UPM-9E6xY	j	j	UNRESOLVED	
+fPhymKNvK-A	F	G	HLE	sceUserServiceGetLoginUserIdList
+xEszJVGpybs	j	j	UNRESOLVED	
+6sJWiWSRuqk	j	j	HLE	strncpy
+VANhIWcqYak	X	X	UNRESOLVED	
+3rHWaV-1KC4	X	X	UNRESOLVED	
+2JgFB2n9oUM	K	K	UNRESOLVED	
+znaWI0gpuo8	K	K	UNRESOLVED	
+gjP9-KQzoUk	K	K	HLE	scePadGetControllerInformation
+RR4novUEENY	K	K	UNRESOLVED	scePadSetLightBar
+DscD1i9HX1w	K	K	UNRESOLVED	scePadResetLightBar
+yFVnOdGxvZY	K	K	UNRESOLVED	scePadSetVibration
+W2G-yoyMF5U	K	K	UNRESOLVED	
+obuxdTiwkF8	C	D	UNRESOLVED	
+ca7v6Cxulzs	k	N	UNRESOLVED	
+99b82IKXpH4	X	X	HLE	sceAppContentAppParamGetInt
+XbbJC3E+L5M	P	P	UNRESOLVED	
+w9wlKcHrmm8	P	P	UNRESOLVED	
+m5CYKX20wfg	P	P	UNRESOLVED	
+uaieF+glFPs	P	P	UNRESOLVED	
+sPuK5ic3GD4	P	P	UNRESOLVED	
+3RQ5aQfnstU	P	P	UNRESOLVED	
+Q3utJvma4Mo	P	P	UNRESOLVED	
+8Lo6Zv94aho	P	P	UNRESOLVED	
+9kPCz7Or+1Y	P	P	UNRESOLVED	
+x1UB9bwDSOw	P	P	UNRESOLVED	
+CdWp0oHWGr0	F	G	HLE	sceUserServiceGetInitialUser
+1n37q1Bvc5Y	P	P	UNRESOLVED	sceSystemServiceGetDisplaySafeAreaInfo
+utPrVdxio-8	G	H	UNRESOLVED	
+5tRaBjtdTzY	G	H	UNRESOLVED	
+T4ucGB8CsnM	G	H	UNRESOLVED	
+Nv8c-Kb+DUM	G	H	UNRESOLVED	
+Vo5V8KAwCmk	P	P	UNRESOLVED	sceSystemServiceHideSplashScreen
+g3PNjYKWqnQ	a	a	UNRESOLVED	
+k1SwgkMSOM8	a	a	UNRESOLVED	
+YQ0navp+YIc	j	j	HLE	puts
+oVkZ8W8-Q8A	j	j	UNRESOLVED	strtok
+kHg45qPC6f0	j	j	HLE	strncat
+JoBqSQt1yyA	P	P	UNRESOLVED	sceSystemServiceLoadExec
+a5N7lAG0y2Q	X	X	UNRESOLVED	
+buYbeLOGWmA	X	X	UNRESOLVED	sceAppContentTemporaryDataMount2
+SaKib2Ug0yI	X	X	UNRESOLVED	
+5VlQSzXW-SQ	R	R	UNRESOLVED	
+YiBUtz-pGkc	R	R	UNRESOLVED	
+0K1yQ6Lv-Yc	S	S	UNRESOLVED	
+KuOmgKoqCdY	N	N	UNRESOLVED	
+5jRCs2axtr4	N	N	UNRESOLVED	
+RenI1lL1WFk	N	N	UNRESOLVED	
+JrwFIMzKNr0	j	j	UNRESOLVED	
+pKwslsMUmSk	j	j	HLE	fmod
+2WE3BTYVwKM	j	j	HLE	cos
+88Vv-AzHVj8	j	j	HLE	fmodf
+BpFoboUJoZU	k	N	HLE	sceKernelCreateEventFlag
+JTvBflhYazQ	k	N	HLE	sceKernelWaitEventFlag
+IOnSvHzqu6A	k	N	HLE	sceKernelSetEventFlag
+NVadfnzQhHQ	j	j	HLE	exp
+wuCroIGjt2g	N	N	UNRESOLVED	
+AqBioC2vF3I	N	N	UNRESOLVED	
+wLlFkwG9UcQ	j	j	HLE	time
+hv1luiJrqQM	K	K	HLE	scePadInit
+Qs0wWulgl7U	c	c	UNRESOLVED	sceMouseInit
+1uJgoVq3bQU	j	j	UNRESOLVED	_Getptolower
+fFxGkxF2bVo	N	N	UNRESOLVED	
+EMutwaQ34Jo	j	j	UNRESOLVED	
+upoVrzMHFeE	k	N	HLE	scePthreadMutexTrylock
+aesyjrHVWy4	j	j	HLE	strncmp
+ob5xAW4ln-0	j	j	HLE	strchr
+viiwFMaNamA	j	j	HLE	strstr
+mXlxhmLNMPg	j	j	UNRESOLVED	strtol
+9yDWMxEFdJU	j	j	HLE	strrchr
+onNY9Byn-W8	k	N	HLE	scePthreadJoin
+0WMHDb5Dt94	j	j	UNRESOLVED	
+AEJdIVZTEmo	j	j	UNRESOLVED	qsort
+8mql9OcQnd4	k	N	HLE	sceKernelDeleteEventFlag
+JK2wamZPzwM	I	I	UNRESOLVED	
+lhpd6Wk6ccs	j	j	UNRESOLVED	
+cd+Rtw+D1x8	I	I	UNRESOLVED	
+rDMyAf1Jhug	j	j	UNRESOLVED	
+jMB7EFyu30Y	j	j	UNRESOLVED	
+HUbZmOnT-Dg	j	j	UNRESOLVED	
+T7uyNqP7vQA	j	j	HLE	tan
+QBi7HCK03hw	k	N	HLE	sceKernelClockGettime
+D0OdFMjp46I	k	N	UNRESOLVED	sceKernelCreateEqueue
+4J2sUJmuHZQ	k	N	HLE	sceKernelGetProcessTime
+WDszmSbWuDk	k	N	UNRESOLVED	
+HXzjK9yI30k	G	H	UNRESOLVED	sceVideoOutAddFlipEvent
+fzyMKs9kim0	k	N	UNRESOLVED	sceKernelWaitEqueue
+23CPPI1tyBY	k	N	UNRESOLVED	sceKernelGetEventFilter
+mJ7aghmgvfc	k	N	UNRESOLVED	sceKernelGetEventId
+-Ozn0F1AFRg	G	H	UNRESOLVED	sceVideoOutDeleteFlipEvent
+U2JJtSqNKZI	G	H	UNRESOLVED	
+SbU3dwp80lQ	G	H	UNRESOLVED	sceVideoOutGetFlipStatus
+LJDwdSNTnDg	k	N	UNRESOLVED	sceKernelDeleteUserEvent
+jpFjmgAC5AE	k	N	UNRESOLVED	sceKernelDeleteEqueue
+HuViW4HnrOw	G	H	UNRESOLVED	
+CBiu4mCE1DA	G	H	UNRESOLVED	sceVideoOutSetFlipRate
+Y5DhuDKGlnQ	j	j	UNRESOLVED	
+5jNubw4vlAA	j	j	UNRESOLVED	
+GMpvxPFW924	j	j	UNRESOLVED	vprintf
+IZ-qjhRqvjk	R	R	UNRESOLVED	
+c8D9qIjo8EY	R	R	UNRESOLVED	
+vvzWO-DvG1s	h	h	UNRESOLVED	
+bEvXpcEk200	h	h	UNRESOLVED	
+pDom5-078DA	R	R	UNRESOLVED	
++wCt7fCijgk	R	R	UNRESOLVED	
+jjFahkBPCYs	R	R	UNRESOLVED	
+B37SruheQ5Y	R	R	UNRESOLVED	
+EWcwMpbr5F8	R	R	UNRESOLVED	
+BJgi0CH7al4	R	R	UNRESOLVED	
+izvHhqgDt44	R	R	UNRESOLVED	
+XPtW45xiLHk	R	R	UNRESOLVED	
+-HIO4VT87v8	R	R	UNRESOLVED	
+IWalAn-guFs	Q	Q	UNRESOLVED	
++o9816YQhqQ	h	h	UNRESOLVED	
+YrWX+DhPHQY	R	R	UNRESOLVED	
+sk54bi6FtYM	h	h	UNRESOLVED	
+pXvbDfchu6k	j	j	UNRESOLVED	
+3EI-OSJ65Xc	h	h	UNRESOLVED	
+lQOCF84lvzw	h	h	UNRESOLVED	
+9X9+cneTGUU	h	h	UNRESOLVED	
+mmyOCxQMVYQ	R	R	UNRESOLVED	
+nrPfOE8TQu0	R	R	UNRESOLVED	
+FSAFOzi0FpM	R	R	UNRESOLVED	
+rbqZig38AT8	R	R	UNRESOLVED	
+OOY9+ObfKec	h	h	UNRESOLVED	
+9XYJwCf3lEA	R	R	UNRESOLVED	
+o0DBQpFE13o	R	R	UNRESOLVED	
+QygCNNmbGss	R	R	UNRESOLVED	
+-rdXUi2XW90	R	R	UNRESOLVED	
+NU-T4QowTNA	j	j	UNRESOLVED	
+RwXD8grHZHM	S	S	UNRESOLVED	
+DOwXL+FQMEY	S	S	UNRESOLVED	
+7whYpYfHP74	S	S	UNRESOLVED	
+R1ePzopYPYM	S	S	UNRESOLVED	
+7RBSTKGrmDA	S	S	UNRESOLVED	
+dQReuBX9sD8	S	S	UNRESOLVED	
+oBr313PppNE	N	N	UNRESOLVED	
+lUk6wrGXyMw	N	N	UNRESOLVED	
+aZK8lNei-Qw	j	j	UNRESOLVED	fputc
+QZP6I9ZZxpE	j	j	UNRESOLVED	clock
+pO96TwzOm5E	k	N	HLE	sceKernelGetDirectMemorySize
+rTXw65xmLIA	k	N	HLE	sceKernelAllocateDirectMemory
+L-Q3LEjIbgA	k	N	HLE	sceKernelMapDirectMemory
+eV9wAD2riIA	k	N	HLE	sceKernelStat
+oib76F-12fk	k	N	UNRESOLVED	sceKernelLseek
+1G3lF1Gg1k8	k	N	UNRESOLVED	sceKernelOpen
+yDBwVAolDgg	k	N	UNRESOLVED	
+Cg4srZ6TKbU	k	N	UNRESOLVED	sceKernelRead
+4wSze92BhLI	k	N	UNRESOLVED	sceKernelWrite
+1-LFLmRFxxM	k	N	UNRESOLVED	sceKernelMkdir
+E6ao34wPw+U	N	N	UNRESOLVED	
+UtszJWHrDcA	k	N	UNRESOLVED	
+j2AIqSqJP0w	k	N	UNRESOLVED	
+AUXVxWeJU-A	k	N	UNRESOLVED	
+naInUjYt3so	k	N	UNRESOLVED	
+NN01qLRhiqU	N	N	UNRESOLVED	
+1xxcMiGu2fo	F	G	HLE	sceUserServiceGetUserName
+woNpu+45RLk	F	G	UNRESOLVED	
+-sD02mFDBh4	F	G	UNRESOLVED	
+rnEhHqG-4xo	F	G	UNRESOLVED	
+ZKJtxdgvzwg	F	G	UNRESOLVED	
+-3Y5GO+-i78	F	G	UNRESOLVED	
+qWYHOFwqCxY	F	G	UNRESOLVED	
+hD-H81EN9Vg	F	G	UNRESOLVED	
+O6IW1-Dwm-w	F	G	UNRESOLVED	
+rbknaUjpqWo	b	b	UNRESOLVED	
+JT+t00a3TxA	b	b	UNRESOLVED	
+e-ZuhGEoeC4	b	b	UNRESOLVED	
+eQH7nWPcAgc	b	b	UNRESOLVED	
+j3YMu1MVNNo	F	G	HLE	sceUserServiceInitialize
+bwFjS+bX9mA	F	G	UNRESOLVED	sceUserServiceTerminate
+xk0AcarP3V4	K	K	HLE	scePadOpen
+AcslpN1jHR8	K	K	UNRESOLVED	
+6ncge5+l5Qs	K	K	UNRESOLVED	scePadClose
+RaqxZIf6DvE	c	c	UNRESOLVED	
+lDqxaY1UbEo	V	V	UNRESOLVED	sceMsgDialogInitialize
+b06Hh0DPEaE	V	V	UNRESOLVED	
+6fIC3XKt2k0	V	V	UNRESOLVED	
+ePw-kqZmelo	V	V	UNRESOLVED	
+KuOuD58hqn4	j	j	UNRESOLVED	
+rVjRvHJ0X6c	k	N	HLE	sceKernelVirtualQuery
+BHouLQzh0X0	k	N	UNRESOLVED	
+M4YYbSFfJ8g	A	B	HLE	setenv
+R9lA82OraNs	X	X	HLE	sceAppContentInitialize
+uoUpLGNkygk	U	U	HLE	sceCommonDialogInitialize
+3s8cHiCBKBE	P	P	UNRESOLVED	
+rPo6tV8D9bM	P	P	UNRESOLVED	sceSystemServiceGetStatus
+656LMQSrg6U	P	P	UNRESOLVED	sceSystemServiceReceiveEvent
+PMVehSlfZ94	L	L	UNRESOLVED	
+yH17Q6NWtVg	F	G	UNRESOLVED	
+cAnT0Rw-IwU	c	c	UNRESOLVED	
+eaFXjfJv3xs	L	L	UNRESOLVED	
+dKadqZFgKKQ	L	L	UNRESOLVED	
+VkqLPArfFdc	L	L	UNRESOLVED	
+-4GCfYdNF1s	L	L	UNRESOLVED	
+q1cHNfGycLI	K	K	UNRESOLVED	scePadRead
+rIZnR6eSpvk	K	K	UNRESOLVED	
+clVvL4ZDntw	K	K	UNRESOLVED	scePadSetMotionSensorState
+vDLMoJLde8I	K	K	UNRESOLVED	
+r44mAxdSG+U	K	K	UNRESOLVED	
+IHPqcbc0zCA	K	K	UNRESOLVED	
+x8qnXqh-tiM	c	c	UNRESOLVED	
+35NoyMOtYpE	A	B	UNRESOLVED	
+cJ2Y4E-t258	A	B	UNRESOLVED	
+r8mvOaWdi28	A	B	UNRESOLVED	
+NcaWUxfMNIQ	k	N	HLE	sceKernelMapNamedDirectMemory
+W0Hpm2X0uPE	k	N	HLE	scePthreadSetprio
+-pnj3-7a6QA	A	B	UNRESOLVED	
+F8bUHwAG284	k	N	HLE	scePthreadMutexattrInit
+1FGvU0i9saQ	k	N	UNRESOLVED	
+cmo1RIYva9o	k	N	HLE	scePthreadMutexInit
+smWEktiyyG0	k	N	HLE	scePthreadMutexattrDestroy
+iMp8QpE+XO4	k	N	HLE	scePthreadMutexattrSettype
+DGMG3JshrZU	k	N	UNRESOLVED	sceKernelSetVirtualRangeName
+CkY0AVa-frg	j	j	UNRESOLVED	
+mfHdJTIvhuo	j	j	UNRESOLVED	
+k04jLXu3+Ic	j	j	UNRESOLVED	
+fEoW6BJsPt4	j	j	UNRESOLVED	
+B+vc2AO2Zrc	k	N	HLE	sceKernelAllocateMainDirectMemory
+MBuItvba6z8	k	N	HLE	sceKernelReleaseDirectMemory
+IaZXJ9M79uo	I	I	UNRESOLVED	
+xywYcRB7nbQ	I	I	UNRESOLVED	
+nsYoNRywwNg	k	N	HLE	scePthreadAttrInit
+-Wreprtu0Qs	k	N	HLE	scePthreadAttrSetdetachstate
+4+h9EzwKF4I	k	N	HLE	scePthreadAttrSetschedpolicy
+DzES9hQF4f4	k	N	HLE	scePthreadAttrSetschedparam
+eXbUSpEaTsA	k	N	HLE	scePthreadAttrSetinheritsched
+6UgtwV+0zb4	k	N	HLE	scePthreadCreate
+62KCwEMmzcM	k	N	HLE	scePthreadAttrDestroy
+s1--uE9mBFw	H	I	UNRESOLVED	sceAudioOutClose
+QOQtbeDqsT4	H	I	UNRESOLVED	sceAudioOutOutput
+ekNvsT22rsY	H	I	HLE	sceAudioOutOpen
+wVwPU50pS1c	H	I	UNRESOLVED	
+IADmD4tScBY	M	M	UNRESOLVED	
+gyTyVn+bXMw	M	M	UNRESOLVED	
+NUeBrN7hzf0	M	M	UNRESOLVED	sceImeDialogInit
+x01jxu+vxlc	M	M	UNRESOLVED	
+WkkeywLJcgU	j	j	UNRESOLVED	wcslen
+v7S7LhP2OJc	j	j	UNRESOLVED	wcstombs
+PZku4ZrXJqg	k	N	UNRESOLVED	
+F6e0kwo4cnk	k	N	UNRESOLVED	sceKernelTriggerUserEvent
+N5KDtkIjjJ4	G	H	UNRESOLVED	sceVideoOutUnregisterBuffers
+rKBUtgRrtbk	G	H	UNRESOLVED	
+zgXifHT9ErY	G	H	UNRESOLVED	sceVideoOutIsFlipPending
+U46NwOiJpys	G	H	HLE	sceVideoOutSubmitFlip
+w0hLuNarQxY	G	H	UNRESOLVED	
+mPpPxv5CZt4	P	P	UNRESOLVED	
+3BytPOQgVKc	j	j	UNRESOLVED	
+Up36PTk687E	G	H	HLE	sceVideoOutOpen
+hdpVEUDFW3s	S	S	UNRESOLVED	sceSslInit
+3JCe3lCbQ8A	R	R	UNRESOLVED	
+cduy9v4YmT4	T	T	UNRESOLVED	
+wiT9jeC7xPw	T	T	UNRESOLVED	
+QwOO7vegnV8	T	T	UNRESOLVED	
+TywrFKCoLGY	T	T	UNRESOLVED	sceSaveDataInitialize3
+oQySEUfgXRA	T	T	UNRESOLVED	
+UTXzJbWhhTE	k	N	HLE	scePthreadAttrSetstacksize
+FXPWHNk8Of0	k	N	UNRESOLVED	
+P41kTWUS3EI	k	N	UNRESOLVED	scePthreadGetschedparam
+oIRFTjoILbg	k	N	UNRESOLVED	
+eBTreZ84JFY	W	W	UNRESOLVED	
+o9eWRkSL+M4	W	W	UNRESOLVED	
+HD1YKVU26-M	W	W	UNRESOLVED	
+N6Oy-EjduiY	W	W	UNRESOLVED	
+x8uvuFOPZhU	W	W	UNRESOLVED	
+JfEPXVxhFqA	H	I	UNRESOLVED	sceAudioOutInit
+b+uAV89IlxE	H	I	UNRESOLVED	sceAudioOutSetVolume
+3qxgM4ezETA	k	N	HLE	scePthreadAttrSetaffinity
+3kg7rT0NQIs	k	N	HLE	scePthreadExit
+UbQoYawOsfY	W	W	UNRESOLVED	
+Wnp1OVcrZgk	W	W	UNRESOLVED	
+hdTyRzCXQeQ	W	W	UNRESOLVED	
+ODJK2sn9w4A	W	W	UNRESOLVED	
+d8FcbzfAdQw	W	W	UNRESOLVED	
+ctTAcF5DiKQ	W	W	UNRESOLVED	
+k-q+xOxdc3E	W	W	UNRESOLVED	
+ET4Gr-Uu07s	W	W	UNRESOLVED	
+JdksQu8pNdQ	W	W	UNRESOLVED	
+9y5v+fGN4Wk	W	W	UNRESOLVED	
+NkJwDzKmIlw	W	W	UNRESOLVED	
+ZC17w3vB5Lo	W	W	UNRESOLVED	
+Ik-KpLTlf7Q	Q	Q	UNRESOLVED	
+av8Z++94rs0	W	W	UNRESOLVED	
+XC9wM+xULz8	W	W	UNRESOLVED	
+OVths0xGfho	W	W	UNRESOLVED	
+w5moABNwnRY	W	W	UNRESOLVED	
+GrQ9s4IrNaQ	H	I	UNRESOLVED	
+wwM99gjFf1Y	W	W	UNRESOLVED	
+buMCiJftcfw	W	W	UNRESOLVED	
+cQke9UuBQOk	k	N	UNRESOLVED	sceKernelMunmap
+PI7jIZj4pcE	i	i	UNRESOLVED	sceRandomGetRandomNumber
+2X5agFjKxMc	j	j	HLE	calloc
+YaHc3GS7y7g	j	j	UNRESOLVED	
+bRujIheWlB0	j	j	UNRESOLVED	
+5Lf51jvohTQ	j	j	UNRESOLVED	
+iS4aWbUonl0	j	j	UNRESOLVED	
+gTuXQwP9rrs	j	j	UNRESOLVED	
+k6pGNMwJB08	j	j	UNRESOLVED	
+TDfQqO-gMbY	S	S	UNRESOLVED	
+-PoIzr3PEk0	S	S	UNRESOLVED	
+qIvLs0gYxi0	S	S	UNRESOLVED	
+efhK-YSUYYQ	j	j	UNRESOLVED	
+A9cVMUtEp4Y	Q	Q	UNRESOLVED	sceHttpInit
+Ls4tzzhimqQ	j	j	HLE	strcat
+802pFCwC9w0	j	j	UNRESOLVED	
+1mecP7RgI2A	j	j	UNRESOLVED	
+u0XOsuOmOzc	j	j	UNRESOLVED	
+pNtJdE3x49E	j	j	UNRESOLVED	wcscmp
+WuMbPBKN1TU	j	j	UNRESOLVED	
+MELi-cKqWq0	j	j	UNRESOLVED	
+SreZybSRWpU	j	j	UNRESOLVED	
+7yMFgcS8EPA	j	j	UNRESOLVED	
+7oxv3PPCumo	k	N	HLE	sceKernelReserveVirtualRange
+hwVSPCmp5tM	k	N	HLE	sceKernelCheckedReleaseDirectMemory
+Q4qBuN-c0ZM	E	F	UNRESOLVED	sceNetSocket
+bErx49PgxyY	E	F	UNRESOLVED	
+gvD1greCu0A	E	F	UNRESOLVED	
+304ooNZxWDY	E	F	UNRESOLVED	
+hoOAofhhRvE	E	F	UNRESOLVED	sceNetGetsockname
+kn0yiYeExgA	j	j	UNRESOLVED	
+-qLsfDAywIY	f	f	UNRESOLVED	
+Wi7DtlLV+KI	f	f	UNRESOLVED	
+MHur6qCsUus	f	f	UNRESOLVED	
+H8ya2H00jbI	j	j	HLE	sin
+AxoDrINp4J8	f	f	UNRESOLVED	
+dl+4eHSzUu4	f	f	UNRESOLVED	sceAjmInitialize
+Q3dyFuwGn64	f	f	UNRESOLVED	
+NVDXiUesSbA	f	f	UNRESOLVED	
+RbLbuKv8zho	f	f	UNRESOLVED	
+MmpF1XsQiHw	f	f	UNRESOLVED	
+SkEwpiu3tZg	f	f	UNRESOLVED	
+ezM2OhNxzck	f	f	UNRESOLVED	
+uSrXaxT+oPQ	f	f	UNRESOLVED	
+39WxhR-ePew	f	f	UNRESOLVED	
+5tOfnaClcqM	f	f	UNRESOLVED	
+WfAiBW8Wcek	f	f	UNRESOLVED	
+5NE8Sjc7VC8	J	J	UNRESOLVED	
+Jh6WbHhnI68	J	J	UNRESOLVED	
+g2tViFIohHE	I	I	UNRESOLVED	
+t5YrizufpQc	I	I	UNRESOLVED	
+pDmme7Bgm6E	I	I	UNRESOLVED	
+0x6o1VVAYSY	I	I	UNRESOLVED	
+on6ZH7Abo10	I	I	UNRESOLVED	
+BohEAQ7DlUE	J	J	UNRESOLVED	
+LozEOU8+anM	J	J	UNRESOLVED	
+8XTArSPyWHk	I	I	UNRESOLVED	
+PE2zHMqLSHs	I	I	UNRESOLVED	
+aII9h5nli9U	I	I	UNRESOLVED	
+R7d0F1g2qsU	I	I	UNRESOLVED	

@@ -1,0 +1,6 @@
+D:\ps5emu_poc\src\main.cpp;D:\ps5emu_poc\build\x64\ps5emu.dir\Release\main.obj
+D:\ps5emu_poc\src\emu.cpp;D:\ps5emu_poc\build\x64\ps5emu.dir\Release\emu.obj
+D:\ps5emu_poc\src\nid.cpp;D:\ps5emu_poc\build\x64\ps5emu.dir\Release\nid.obj
+D:\ps5emu_poc\src\perf.cpp;D:\ps5emu_poc\build\x64\ps5emu.dir\Release\perf.obj
+D:\ps5emu_poc\src\overlay.cpp;D:\ps5emu_poc\build\x64\ps5emu.dir\Release\overlay.obj
+D:\ps5emu_poc\src\vk_backend.cpp;D:\ps5emu_poc\build\x64\ps5emu.dir\Release\vk_backend.obj

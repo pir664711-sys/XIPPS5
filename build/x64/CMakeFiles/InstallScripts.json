@@ -1,0 +1,7 @@
+{
+	"InstallScripts" : 
+	[
+		"D:/ps5emu_poc/build/x64/cmake_install.cmake"
+	],
+	"Parallel" : false
+}

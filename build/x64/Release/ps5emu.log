@@ -1,0 +1,83 @@
+[00:53:35.201] ps5emu 0.020 [x64] - native x86-64 execution, no CPU translation layer
+[00:53:35.204] game list: 1 title(s) in 1 folder(s)
+[00:53:39.785] booting: Spinning Cube (CPU test)
+[00:53:39.788] NID name table: 230 known names
+[00:53:39.792] ELF: type=0x3 (DYN/PIE) machine=62 entry=0x370 phnum=9 size=5616 bytes
+[00:53:39.795]   PH[0] type=0x1 flags=5 vaddr=0x0 filesz=0x764 memsz=0x764
+[00:53:39.798]   PH[1] type=0x1 flags=6 vaddr=0x1f20 filesz=0xe0 memsz=0xe0
+[00:53:39.801]   PH[2] type=0x2 flags=6 vaddr=0x1f20 filesz=0xe0 memsz=0xe0
+[00:53:39.804]   PH[3] type=0x4 flags=4 vaddr=0x238 filesz=0x20 memsz=0x20
+[00:53:39.808]   PH[4] type=0x4 flags=4 vaddr=0x258 filesz=0x24 memsz=0x24
+[00:53:39.812]   PH[5] type=0x6474e553 flags=4 vaddr=0x238 filesz=0x20 memsz=0x20
+[00:53:39.814]   PH[6] type=0x6474e550 flags=4 vaddr=0x6cc filesz=0x1c memsz=0x1c
+[00:53:39.815]   PH[7] type=0x6474e551 flags=6 vaddr=0x0 filesz=0x0 memsz=0x0
+[00:53:39.816]   PH[8] type=0x6474e552 flags=4 vaddr=0x1f20 filesz=0xe0 memsz=0xe0
+[00:53:39.816] loaded DYN ELF, 8 KB at 00000000020D0000, entry +0x370
+[00:53:39.817] entry bytes: f3 0f 1e fa 41 57 41 56 41 55 4c 8d 2d f7 02 00 00 41 54 55 53 48 89 fb 
+[00:53:39.817] code scan: no syscalls / TLS access found
+[00:53:39.817] imports: 0 resolved to HLE, 0 unresolved (stubbed; 0 of those have a known name). Full table: ps5emu.imports.txt
+[00:53:39.818] entry point at 00000000020D0370 (guest vaddr 0x370)
+[00:53:39.994] Vulkan ready: Intel(R) UHD Graphics (vendor 0x8086, integrated, vsync on)
+[00:53:39.995] guest thread started
+[00:53:39.996] [guest] cube guest started (native x86-64)
+[00:53:42.992] guest alive: RIP=ntdll.dll+0xa0a44 RSP=000000000B84F998 flips=184
+[00:53:45.990] guest alive: RIP=ntdll.dll+0xa0a44 RSP=000000000B84F998 flips=364
+[00:53:46.848] guest returned 1
+[00:53:46.885] emulation stopped
+[00:53:51.569] booting: eboot.bin
+[00:53:51.570] NID name table: 230 known names
+[00:53:51.583] ELF: type=0xfe10 (SCE_DYNEXEC (console executable)) machine=62 entry=0x70 phnum=14 size=31195944 bytes
+[00:53:51.584]   PH[0] type=0x1 flags=1 vaddr=0x0 filesz=0x17f6ecc memsz=0x17f6ecc
+[00:53:51.584]   PH[1] type=0x1 flags=4 vaddr=0x17f8000 filesz=0x32b9e8 memsz=0x32b9e8
+[00:53:51.585]   PH[2] type=0x6474e550 flags=4 vaddr=0x17f8000 filesz=0x475fc memsz=0x475fc
+[00:53:51.585]   PH[3] type=0x1 flags=6 vaddr=0x1b24000 filesz=0x968b8 memsz=0x968b8
+[00:53:51.586]   PH[4] type=0x6474e552 flags=4 vaddr=0x1b24000 filesz=0x968b8 memsz=0x98000
+[00:53:51.586]   PH[5] type=0x7 flags=4 vaddr=0x1b24000 filesz=0x0 memsz=0xb8
+[00:53:51.587]   note: PT_TLS present (init 0x0 bytes, total 0xb8, align 8) - per-thread TCB + fs: patching is on
+[00:53:51.587]   PH[6] type=0x61000001 flags=4 vaddr=0x1bba858 filesz=0x60 memsz=0x60
+[00:53:51.587]   note: PT_SCE_PROCPARAM (process parameters, read by libkernel through sceKernelGetProcParam)
+[00:53:51.588]   PH[7] type=0x1 flags=6 vaddr=0x1bbc000 filesz=0xd8a3c memsz=0x216b54
+[00:53:51.588]   PH[8] type=0x1 flags=0 vaddr=0x1dd2b60 filesz=0x123ed0 memsz=0x123ed0
+[00:53:51.589]   PH[9] type=0x4 flags=0 vaddr=0x1ef5ef8 filesz=0x24 memsz=0x24
+[00:53:51.589]   PH[10] type=0x2 flags=6 vaddr=0x1ef5f20 filesz=0xb10 memsz=0xb10
+[00:53:51.589]   PH[11] type=0x6fffff00 flags=0 vaddr=0x0 filesz=0x64 memsz=0x0
+[00:53:51.590]   PH[12] type=0x6fffff01 flags=0 vaddr=0x0 filesz=0x187a memsz=0x187a
+[00:53:51.590]   PH[13] type=0x4 flags=0 vaddr=0x0 filesz=0x18 memsz=0x0
+[00:53:51.600] loaded DYN ELF, 31708 KB at 0000000010D80000, entry +0x70
+[00:53:51.601] entry bytes: 55 48 89 e5 41 57 41 56 53 50 44 8b 37 48 89 f3 4c 8d 7f 08 e8 c7 48 7f 
+[00:53:51.640] code scan: 42 x SYSCALL (0F 05), first at guest vaddr 0x2079aa (byte pattern only: may include false positives) -> raw kernel calls need HLE
+[00:53:51.640] code scan: 67 x INT 0x80 (byte pattern only)
+[00:53:51.665] code scan: 444 x 'mov r64, fs:[disp32]' -> TLS patch ok: 444 rewritten, 0 failed
+[00:53:51.666] imports: 135 resolved to HLE, 465 unresolved (stubbed; 98 of those have a known name). Full table: ps5emu.imports.txt
+[00:53:51.667] entry point at 0000000010D80070 (guest vaddr 0x70)
+[00:53:51.722] Vulkan ready: Intel(R) UHD Graphics (vendor 0x8086, integrated, vsync on)
+[00:53:51.723] guest thread started
+[00:53:51.723] guest thread pointer (TCB) at 00000000101D0000
+[00:53:51.724] unresolved import first called: 1FGvU0i9saQ#k#N | caller: GUEST image: vaddr 0x14b9071 (image base 0000000010D80000, file-relative +0x14b9071) | bytes around return address (-16..+11): 8D BD C8 FE FF FF BE 01 00 00 00 E8 4F D5 33 00 85 C0 74 24 89 C2 48 8D 3D 2C A7 52
+[00:53:51.724] unresolved import called (#2): 1FGvU0i9saQ#k#N | first caller: GUEST image: vaddr 0x14b9071 (image base 0000000010D80000, file-relative +0x14b9071)
+[00:53:51.725] unresolved import called (#3): 1FGvU0i9saQ#k#N | first caller: GUEST image: vaddr 0x14b9071 (image base 0000000010D80000, file-relative +0x14b9071)
+[00:53:51.726] unresolved import first called: KuOuD58hqn4#j#j | caller: GUEST image: vaddr 0x1322614 (image base 0000000010D80000, file-relative +0x1322614) | bytes around return address (-16..+11): 64 FF FF FF C7 45 84 00 00 00 00 E8 CC 3D 4D 00 48 8B 8D 70 FF FF FF 48 2B 4D 80 31
+[00:53:51.726] unresolved import first called: BHouLQzh0X0#k#N | caller: GUEST image: vaddr 0x13226b5 (image base 0000000010D80000, file-relative +0x13226b5) | bytes around return address (-16..+11): 4C 89 EF BE 01 00 00 00 4C 89 F2 E8 4B 3D 4D 00 85 C0 75 1C 48 8B 45 88 48 89 C1 48
+[00:53:51.727] unresolved import called (#2): BHouLQzh0X0#k#N | first caller: GUEST image: vaddr 0x13226b5 (image base 0000000010D80000, file-relative +0x13226b5)
+[00:53:51.727] unresolved import called (#3): BHouLQzh0X0#k#N | first caller: GUEST image: vaddr 0x13226b5 (image base 0000000010D80000, file-relative +0x13226b5)
+[00:53:51.728] unresolved import BHouLQzh0X0#k#N called 100 times | first caller: GUEST image: vaddr 0x13226b5 (image base 0000000010D80000, file-relative +0x13226b5)
+[00:53:51.728] unresolved import BHouLQzh0X0#k#N called 1000 times | first caller: GUEST image: vaddr 0x13226b5 (image base 0000000010D80000, file-relative +0x13226b5)
+[00:53:51.729] unresolved import BHouLQzh0X0#k#N called 10000 times | first caller: GUEST image: vaddr 0x13226b5 (image base 0000000010D80000, file-relative +0x13226b5)
+[00:53:51.731] unresolved import BHouLQzh0X0#k#N called 100000 times | first caller: GUEST image: vaddr 0x13226b5 (image base 0000000010D80000, file-relative +0x13226b5)
+[00:53:54.720] guest alive: RIP=GUEST image: vaddr 0x17f6400 (image base 0000000010D80000, file-relative +0x17f6400) RSP=00000000100CFD88 flips=0 (never submitted a frame; guest has not reached the HLE flip path)
+[00:53:57.723] guest alive: RIP=ps5emu.exe+0x17abf RSP=00000000100CFCE0 flips=0 (never submitted a frame; guest has not reached the HLE flip path)
+[00:54:00.724] guest alive: RIP=ps5emu.exe+0x17abf RSP=00000000100CFCE0 flips=0 (never submitted a frame; guest has not reached the HLE flip path)
+[00:54:03.726] guest alive: RIP=ps5emu.exe+0x17acc RSP=00000000100CFCE0 flips=0 (never submitted a frame; guest has not reached the HLE flip path)
+[00:54:06.725] guest alive: RIP=ps5emu.exe+0x17c73 RSP=00000000100CFCE0 flips=0 (never submitted a frame; guest has not reached the HLE flip path)
+[00:54:21.717] guest alive: RIP=ps5emu.exe+0x17c73 RSP=00000000100CFCE0 flips=0 (never submitted a frame; guest has not reached the HLE flip path)
+[00:54:36.722] guest alive: RIP=ps5emu.exe+0x17abf RSP=00000000100CFCE0 flips=0 (never submitted a frame; guest has not reached the HLE flip path)
+[00:54:51.724] guest alive: RIP=ps5emu.exe+0x17a9f RSP=00000000100CFCE0 flips=0 (never submitted a frame; guest has not reached the HLE flip path)
+[00:55:06.729] guest alive: RIP=ps5emu.exe+0x17acc RSP=00000000100CFCE0 flips=0 (never submitted a frame; guest has not reached the HLE flip path)
+[00:55:21.723] guest alive: RIP=ps5emu.exe+0x17abf RSP=00000000100CFCE0 flips=0 (never submitted a frame; guest has not reached the HLE flip path)
+[00:55:36.725] guest alive: RIP=ps5emu.exe+0x17abf RSP=00000000100CFCE0 flips=0 (never submitted a frame; guest has not reached the HLE flip path)
+[00:55:51.723] guest alive: RIP=ps5emu.exe+0x17acc RSP=00000000100CFCE0 flips=0 (never submitted a frame; guest has not reached the HLE flip path)
+[00:56:06.731] guest alive: RIP=ps5emu.exe+0x17abf RSP=00000000100CFCE0 flips=0 (never submitted a frame; guest has not reached the HLE flip path)
+[00:56:19.293] guest force-terminated
+[00:56:19.294] Vulkan objects leaked (guest killed mid-present); skipping teardown
+[00:56:19.297] emulation stopped
+[00:56:19.322] ps5emu exiting normally

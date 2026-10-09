@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Solution>
+	<Configurations>
+		<BuildType Name="Debug"/>
+		<BuildType Name="Release"/>
+		<BuildType Name="MinSizeRel"/>
+		<BuildType Name="RelWithDebInfo"/>
+		<Platform Name="x64"/>
+	</Configurations>
+	<Project Path="ALL_BUILD.vcxproj" Type="8bc9ceb8-8b4a-11d0-8d11-00a0c91bc942" Id="c2a245f5-ea8e-3aef-999a-638f8e03a5d8" DefaultStartup="true">
+		<BuildDependency Project="ZERO_CHECK.vcxproj"/>
+		<BuildDependency Project="ps5emu.vcxproj"/>
+		<Build Solution="Debug|*" Project="false"/>
+		<Build Solution="Release|*" Project="false"/>
+		<Build Solution="MinSizeRel|*" Project="false"/>
+		<Build Solution="RelWithDebInfo|*" Project="false"/>
+	</Project>
+	<Project Path="ZERO_CHECK.vcxproj" Type="8bc9ceb8-8b4a-11d0-8d11-00a0c91bc942" Id="88efd29e-af0a-38ca-a4e1-66b645208ea3"/>
+	<Project Path="ps5emu.vcxproj" Type="8bc9ceb8-8b4a-11d0-8d11-00a0c91bc942" Id="232cca74-2972-352b-939f-28b0a7cbac10">
+		<BuildDependency Project="ZERO_CHECK.vcxproj"/>
+	</Project>
+</Solution>
